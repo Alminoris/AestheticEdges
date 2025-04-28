@@ -1,4 +1,4 @@
-// 1.20.1	2025-04-28T22:41:50.487389	Aesthetic Edges/Model Definitions
+// 1.19.4	2025-04-28T22:51:47.1220389	Aesthetic Edges/Model Definitions
 3b6fc253fa4f4e3c6e9a89300548de08b8d15007 assets\aestheticedges\models\item\baseboard_outer_mango.json
 06ec7d7b4fa00b5c52c7e019094372872dc3e66b assets\aestheticedges\models\item\baseboard_pine.json
 0c2e1ea5be5d58616c75a31c6d03733bfe22b82d assets\aestheticedges\models\item\baseboard_inner_acacia.json
@@ -19,8 +19,8 @@ c401bf2322a324d7c4debb430edcdcd1d21c4340 assets\aestheticedges\models\item\baseb
 2909b0604e1f21c43636ced13996d314621cec24 assets\aestheticedges\models\item\baseboard_outer_viburnum.json
 990fd37f80bd02fe6ccb7be1af0a1d3d81cb4d6c assets\aestheticedges\models\item\baseboard_outer_fir.json
 ad433caa83b2ad7c4962b91c486ecc2e4bb87bf4 assets\aestheticedges\models\item\curbstone_inner_dolomite_block.json
-f16a0bf15d647fc67e0516c287a2d89c9a624dc7 assets\aestheticedges\models\item\curbstone_high_inner_granite.json
 e4086032cac7ea336dff6e2e4532619a3d223bf0 assets\aestheticedges\models\item\curbstone_inner_quartz_block_bottom.json
+f16a0bf15d647fc67e0516c287a2d89c9a624dc7 assets\aestheticedges\models\item\curbstone_high_inner_granite.json
 f2db28e715452a306b43d839e184e4c1a6644ebc assets\aestheticedges\models\item\curbstone_dolomite_block.json
 925945946c8ef6ee4197aa5241cc7aca5d8a50b6 assets\aestheticedges\models\item\simple_curb_dolomite_block.json
 07f97ed94bcbdd8b32557f3e832301d9caf5c390 assets\aestheticedges\models\item\curbstone_saltmarsh_block.json

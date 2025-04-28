@@ -15,9 +15,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups
 {
-    public static final ItemGroup AEDGS_TAB = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(AestheticEdges.MOD_ID, "aedgstab"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.aedgstab"))
+    public static final ItemGroup AEDGS_TAB = FabricItemGroup.builder(new Identifier(AestheticEdges.MOD_ID, "aedgstab")).displayName(Text.translatable("itemgroup.aedgstab"))
                     .icon(() -> new ItemStack(Blocks.RED_CARPET)).entries((displayContext, entries) ->
                     {
                         for(String name : BlockSetsHelper.STONES)
@@ -91,7 +89,7 @@ public class ModItemGroups
                                 entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
                             }
                         }
-                    }).build());
+                    }).build();
 
     public static void registerItemGroups()
     {
