@@ -3,15 +3,15 @@
 	"id": "aestheticedges",
 	"version": "${version}",
 	"name": "Aesthetic Edges",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod about aesthetic decorative edges like curbs, baseboards, carnises, etc.",
 	"authors": [
-		"Me!"
+		"Almiris (Alminoris)"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/Alminoris/AestheticEdges"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/aestheticedges/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -30,8 +30,8 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.13",
-		"minecraft": "~1.21.1",
-		"java": ">=21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
 		"fabric-api": "*"
 	},
 	"suggests": {
