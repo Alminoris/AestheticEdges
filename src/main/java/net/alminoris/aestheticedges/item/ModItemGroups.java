@@ -2,97 +2,38 @@ package net.alminoris.aestheticedges.item;
 
 import net.alminoris.aestheticedges.AestheticEdges;
 import net.alminoris.aestheticedges.block.ModBlocks;
-import net.alminoris.aestheticedges.util.helper.BlockSetsHelper;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ModItemGroups
 {
-    public static final ItemGroup AEDGS_TAB = FabricItemGroup.builder(new Identifier(AestheticEdges.MOD_ID, "aedgstab")).displayName(Text.translatable("itemgroup.aedgstab"))
-                    .icon(() -> new ItemStack(Blocks.RED_CARPET)).entries((displayContext, entries) ->
-                    {
-                        for(String name : BlockSetsHelper.STONES)
-                        {
-                            entries.add(ModBlocks.CURBSTONES.get(name));
-                            entries.add(ModBlocks.CURBSTONES_INNER.get(name));
-                            entries.add(ModBlocks.CURBSTONES_OUTER.get(name));
-                        }
-                        if (FabricLoader.getInstance().isModLoaded("wildfields"))
-                        {
-                            for(String name : BlockSetsHelper.EXTRA_STONES_WF)
-                            {
-                                entries.add(ModBlocks.CURBSTONES.get(name));
-                                entries.add(ModBlocks.CURBSTONES_INNER.get(name));
-                                entries.add(ModBlocks.CURBSTONES_OUTER.get(name));
-                            }
-                        }
-                        for(String name : BlockSetsHelper.STONES)
-                        {
-                            entries.add(ModBlocks.HIGH_CURBSTONES.get(name));
-                            entries.add(ModBlocks.HIGH_CURBSTONES_INNER.get(name));
-                            entries.add(ModBlocks.HIGH_CURBSTONES_OUTER.get(name));
-                        }
-                        if (FabricLoader.getInstance().isModLoaded("wildfields"))
-                        {
-                            for(String name : BlockSetsHelper.EXTRA_STONES_WF)
-                            {
-                                entries.add(ModBlocks.HIGH_CURBSTONES.get(name));
-                                entries.add(ModBlocks.HIGH_CURBSTONES_INNER.get(name));
-                                entries.add(ModBlocks.HIGH_CURBSTONES_OUTER.get(name));
-                            }
-                        }
-                        for(String name : BlockSetsHelper.STONES)
-                        {
-                            entries.add(ModBlocks.SIMPLE_CURBS.get(name));
-                            entries.add(ModBlocks.SIMPLE_CURBS_INNER.get(name));
-                            entries.add(ModBlocks.SIMPLE_CURBS_OUTER.get(name));
-                        }
-                        if (FabricLoader.getInstance().isModLoaded("wildfields"))
-                        {
-                            for(String name : BlockSetsHelper.EXTRA_STONES_WF)
-                            {
-                                entries.add(ModBlocks.SIMPLE_CURBS.get(name));
-                                entries.add(ModBlocks.SIMPLE_CURBS_INNER.get(name));
-                                entries.add(ModBlocks.SIMPLE_CURBS_OUTER.get(name));
-                            }
-                        }
-                        for(String name : BlockSetsHelper.WOODS)
-                        {
-                            entries.add(ModBlocks.BASEBOARDS.get(name));
-                            entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
-                            entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
-                        }
+    public static List<String> EXTRA_WOODS_WF = new ArrayList<>();
 
-                        if (FabricLoader.getInstance().isModLoaded("arborealnature"))
-                        {
-                            for(String name : BlockSetsHelper.EXTRA_WOODS_AN)
-                            {
-                                entries.add(ModBlocks.BASEBOARDS.get(name));
-                                entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
-                                entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
-                            }
-                        }
+    public static List<String> EXTRA_WOODS_AN = new ArrayList<>();
 
-                        if (FabricLoader.getInstance().isModLoaded("wildfields"))
-                        {
-                            for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
-                            {
-                                entries.add(ModBlocks.BASEBOARDS.get(name));
-                                entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
-                                entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
-                            }
-                        }
-                    }).build();
+    public static List<String> EXTRA_STONES_WF = new ArrayList<>();
+
+    public static final ItemGroup AEDGS_TAB = FabricItemGroupBuilder.build(new Identifier(AestheticEdges.MOD_ID, "aedgstab"),
+            () -> new ItemStack(ModBlocks.CURBSTONES_INNER.get("stone")));
 
     public static void registerItemGroups()
     {
+        if (FabricLoader.getInstance().isModLoaded("arborealnature"))
+        {
+            EXTRA_WOODS_AN = List.of("hazelnut", "hornbeam", "hawthorn", "quince", "plum", "mango", "fig", "viburnum",
+                    "white_mulberry", "wild_cherry", "bauhinia", "pine", "fir", "cedar", "araucaria", "juniper");
+        }
+        if (FabricLoader.getInstance().isModLoaded("wildfields"))
+        {
+            EXTRA_WOODS_WF = List.of("olive", "tamarisk");
 
+            EXTRA_STONES_WF = List.of("dolomite_block", "saltmarsh_block");
+        }
     }
 }
