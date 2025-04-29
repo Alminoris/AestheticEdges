@@ -50,7 +50,7 @@ public class ModModelProvider extends FabricModelProvider
     {
         ModJsonHelper.createBlockModel(jsonContext, Registry.BLOCK.getId(curbstone).getPath(),modId+":block/"+name);
         ModJsonHelper.createYAxisRotatedBlockState(Registry.BLOCK.getId(curbstone).getPath());
-        blockStateModelGenerator.registerParentedItemModel(curbstone, Identifier.of(AestheticEdges.MOD_ID, "block/"+Registry.BLOCK.getId(curbstone).getPath()));
+        blockStateModelGenerator.registerParentedItemModel(curbstone, new Identifier(AestheticEdges.MOD_ID, "block/"+Registry.BLOCK.getId(curbstone).getPath()));
     }
 
     @Override

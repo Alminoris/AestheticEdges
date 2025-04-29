@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 3,
   "ingredient": [],
-  "result": "aestheticedges:baseboard_bamboo"
+  "result": "aestheticedges:baseboard_bamboo",
+  "count": 3
 }
