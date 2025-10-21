@@ -972,4 +972,2873 @@ public class ModJsonTemplates
               }
             }
             """;
+    
+    public static String CURTAIN_ROD = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [1, 14, 0],
+            			"to": [15, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [1, 6, 15, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [1, 6, 15, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [15, 6, 1, 3], "texture": "#0"},
+            				"down": {"uv": [15, 3, 1, 6], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [0, 13, 0],
+            			"to": [1, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [15, 13, 0],
+            			"to": [16, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [15.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	}
+            }
+            """;
+
+    public static String CURTAIN_ROD_LEFT = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [1, 14, 0],
+            			"to": [16, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [1, 6, 16, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [1, 6, 16, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [16, 6, 1, 3], "texture": "#0"},
+            				"down": {"uv": [16, 3, 1, 6], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [0, 13, 0],
+            			"to": [1, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	}
+            }
+            """;
+
+    public static String CURTAIN_ROD_RIGHT = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [0, 14, 0],
+            			"to": [15, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [0, 6, 15, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [0, 6, 15, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [15, 6, 0, 3], "texture": "#0"},
+            				"down": {"uv": [15, 3, 0, 6], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [15, 13, 0],
+            			"to": [16, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [15.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	}
+            }
+            """;
+
+    public static String CURTAIN_ROD_CENTER = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [0, 14, 0],
+            			"to": [16, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [0, 6, 16, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [0, 6, 16, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [16, 6, 0, 3], "texture": "#0"},
+            				"down": {"uv": [16, 3, 0, 6], "texture": "#0"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	}
+            }
+            """;
+
+    public static String CURTAIN_ROD_DRESSED = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"1": "minecraft:block/COLOR_NAME_wool",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [1, 14, 0],
+            			"to": [15, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [1, 6, 15, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [1, 6, 15, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [15, 6, 1, 3], "texture": "#0"},
+            				"down": {"uv": [15, 3, 1, 6], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [0, 13, 0],
+            			"to": [1, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [15, 13, 0],
+            			"to": [16, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [15.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [8, -12, 1.5],
+            			"to": [16, 13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 0, 11, 16], "texture": "#1"},
+            				"east": {"uv": [1, 0, 2, 16], "texture": "#1"},
+            				"south": {"uv": [3, 0, 11, 16], "texture": "#1"},
+            				"west": {"uv": [1, 0, 2, 16], "texture": "#1"},
+            				"up": {"uv": [3, 0, 11, 1], "texture": "#1"},
+            				"down": {"uv": [3, 0, 11, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [8.25, -13, 1.5],
+            			"to": [16, -12, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 0, 10.75, 1], "texture": "#1"},
+            				"east": {"uv": [1, 0, 2, 1], "texture": "#1"},
+            				"south": {"uv": [3, 0, 10.75, 1], "texture": "#1"},
+            				"west": {"uv": [1, 0, 2, 1], "texture": "#1"},
+            				"up": {"uv": [3, 0, 10.75, 1], "texture": "#1"},
+            				"down": {"uv": [3, 0, 10.75, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [9, -14, 1.5],
+            			"to": [16, -13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -2, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 1, 10, 2], "texture": "#1"},
+            				"east": {"uv": [1, 1, 2, 2], "texture": "#1"},
+            				"south": {"uv": [3, 1, 10, 2], "texture": "#1"},
+            				"west": {"uv": [1, 1, 2, 2], "texture": "#1"},
+            				"up": {"uv": [3, 1, 10, 2], "texture": "#1"},
+            				"down": {"uv": [3, 1, 10, 2], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [10.75, -16, 1.5],
+            			"to": [16, -15, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 3, 8.25, 4], "texture": "#1"},
+            				"east": {"uv": [1, 3, 2, 4], "texture": "#1"},
+            				"south": {"uv": [3, 3, 8.25, 4], "texture": "#1"},
+            				"west": {"uv": [1, 3, 2, 4], "texture": "#1"},
+            				"up": {"uv": [3, 3, 8.25, 4], "texture": "#1"},
+            				"down": {"uv": [3, 3, 8.25, 4], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [10, -15, 1.5],
+            			"to": [16, -14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, 0, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 2, 9, 3], "texture": "#1"},
+            				"east": {"uv": [1, 2, 2, 3], "texture": "#1"},
+            				"south": {"uv": [3, 2, 9, 3], "texture": "#1"},
+            				"west": {"uv": [1, 2, 2, 3], "texture": "#1"},
+            				"up": {"uv": [3, 2, 9, 3], "texture": "#1"},
+            				"down": {"uv": [3, 2, 9, 3], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [8, 13, 1.5],
+            			"to": [15, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 7, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [1, 13, 1.5],
+            			"to": [8, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 7, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -12, 1.5],
+            			"to": [8, 13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 8, 16], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 16], "texture": "#1"},
+            				"south": {"uv": [0, 0, 8, 16], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 16], "texture": "#1"},
+            				"up": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 8, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -13, 1.5],
+            			"to": [7.75, -12, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [5, 0, 12.75, 1], "texture": "#1"},
+            				"east": {"uv": [2, 0, 3, 1], "texture": "#1"},
+            				"south": {"uv": [5, 0, 12.75, 1], "texture": "#1"},
+            				"west": {"uv": [2, 0, 3, 1], "texture": "#1"},
+            				"up": {"uv": [5, 0, 12.75, 1], "texture": "#1"},
+            				"down": {"uv": [5, 0, 12.75, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -14, 1.5],
+            			"to": [7, -13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -2, 2]},
+            			"faces": {
+            				"north": {"uv": [5, 1, 12, 2], "texture": "#1"},
+            				"east": {"uv": [2, 1, 3, 2], "texture": "#1"},
+            				"south": {"uv": [5, 1, 12, 2], "texture": "#1"},
+            				"west": {"uv": [2, 1, 3, 2], "texture": "#1"},
+            				"up": {"uv": [5, 1, 12, 2], "texture": "#1"},
+            				"down": {"uv": [5, 1, 12, 2], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -16, 1.5],
+            			"to": [5.25, -15, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [4.25, 3, 9.5, 4], "texture": "#1"},
+            				"east": {"uv": [2, 3, 3, 4], "texture": "#1"},
+            				"south": {"uv": [4.25, 3, 9.5, 4], "texture": "#1"},
+            				"west": {"uv": [2, 3, 3, 4], "texture": "#1"},
+            				"up": {"uv": [4.25, 3, 9.5, 4], "texture": "#1"},
+            				"down": {"uv": [4.25, 3, 9.5, 4], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -15, 1.5],
+            			"to": [6, -14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, 0, 2]},
+            			"faces": {
+            				"north": {"uv": [4.25, 2, 10.25, 3], "texture": "#1"},
+            				"east": {"uv": [2, 2, 3, 3], "texture": "#1"},
+            				"south": {"uv": [4.25, 2, 10.25, 3], "texture": "#1"},
+            				"west": {"uv": [2, 2, 3, 3], "texture": "#1"},
+            				"up": {"uv": [4.25, 2, 10.25, 3], "texture": "#1"},
+            				"down": {"uv": [4.25, 2, 10.25, 3], "texture": "#1"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	},
+            	"groups": [
+            		0,
+            		1,
+            		2,
+            		{
+            			"name": "curtain_right",
+            			"origin": [13.47442, 10.21309, 2],
+            			"color": 0,
+            			"children": [3, 4, 5, 6, 7, 8]
+            		},
+            		{
+            			"name": "curtain_left",
+            			"origin": [0, 13.5, 2],
+            			"color": 0,
+            			"children": [9, 10, 11, 12, 13, 14]
+            		}
+            	]
+            }
+            """;
+
+    public static String CURTAIN_ROD_LEFT_DRESSED = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"1": "minecraft:block/COLOR_NAME_wool",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [1, 14, 0],
+            			"to": [16, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [1, 6, 16, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [1, 6, 16, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [16, 6, 1, 3], "texture": "#0"},
+            				"down": {"uv": [16, 3, 1, 6], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [0, 13, 0],
+            			"to": [1, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [1, 13, 1.5],
+            			"to": [8, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 7, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -12, 1.5],
+            			"to": [8, 13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 8, 16], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 16], "texture": "#1"},
+            				"south": {"uv": [0, 0, 8, 16], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 16], "texture": "#1"},
+            				"up": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 8, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -13, 1.5],
+            			"to": [7.75, -12, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [5, 0, 12.75, 1], "texture": "#1"},
+            				"east": {"uv": [2, 0, 3, 1], "texture": "#1"},
+            				"south": {"uv": [5, 0, 12.75, 1], "texture": "#1"},
+            				"west": {"uv": [2, 0, 3, 1], "texture": "#1"},
+            				"up": {"uv": [5, 0, 12.75, 1], "texture": "#1"},
+            				"down": {"uv": [5, 0, 12.75, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -14, 1.5],
+            			"to": [7, -13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -2, 2]},
+            			"faces": {
+            				"north": {"uv": [5, 1, 12, 2], "texture": "#1"},
+            				"east": {"uv": [2, 1, 3, 2], "texture": "#1"},
+            				"south": {"uv": [5, 1, 12, 2], "texture": "#1"},
+            				"west": {"uv": [2, 1, 3, 2], "texture": "#1"},
+            				"up": {"uv": [5, 1, 12, 2], "texture": "#1"},
+            				"down": {"uv": [5, 1, 12, 2], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -16, 1.5],
+            			"to": [5.25, -15, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [4.25, 3, 9.5, 4], "texture": "#1"},
+            				"east": {"uv": [2, 3, 3, 4], "texture": "#1"},
+            				"south": {"uv": [4.25, 3, 9.5, 4], "texture": "#1"},
+            				"west": {"uv": [2, 3, 3, 4], "texture": "#1"},
+            				"up": {"uv": [4.25, 3, 9.5, 4], "texture": "#1"},
+            				"down": {"uv": [4.25, 3, 9.5, 4], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -15, 1.5],
+            			"to": [6, -14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, 0, 2]},
+            			"faces": {
+            				"north": {"uv": [4.25, 2, 10.25, 3], "texture": "#1"},
+            				"east": {"uv": [2, 2, 3, 3], "texture": "#1"},
+            				"south": {"uv": [4.25, 2, 10.25, 3], "texture": "#1"},
+            				"west": {"uv": [2, 2, 3, 3], "texture": "#1"},
+            				"up": {"uv": [4.25, 2, 10.25, 3], "texture": "#1"},
+            				"down": {"uv": [4.25, 2, 10.25, 3], "texture": "#1"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	},
+            	"groups": [
+            		0,
+            		1,
+            		{
+            			"name": "curtain_left",
+            			"origin": [0, 13.5, 2],
+            			"color": 0,
+            			"children": [2, 3, 4, 5, 6, 7]
+            		}
+            	]
+            }
+            """;
+
+    public static String CURTAIN_ROD_RIGHT_DRESSED = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"1": "minecraft:block/COLOR_NAME_wool",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [0, 14, 0],
+            			"to": [15, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [0, 6, 15, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [0, 6, 15, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [15, 6, 0, 3], "texture": "#0"},
+            				"down": {"uv": [15, 3, 0, 6], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [15, 13, 0],
+            			"to": [16, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [15.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [8, -12, 1.5],
+            			"to": [16, 13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 0, 11, 16], "texture": "#1"},
+            				"east": {"uv": [1, 0, 2, 16], "texture": "#1"},
+            				"south": {"uv": [3, 0, 11, 16], "texture": "#1"},
+            				"west": {"uv": [1, 0, 2, 16], "texture": "#1"},
+            				"up": {"uv": [3, 0, 11, 1], "texture": "#1"},
+            				"down": {"uv": [3, 0, 11, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [8.25, -13, 1.5],
+            			"to": [16, -12, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 0, 10.75, 1], "texture": "#1"},
+            				"east": {"uv": [1, 0, 2, 1], "texture": "#1"},
+            				"south": {"uv": [3, 0, 10.75, 1], "texture": "#1"},
+            				"west": {"uv": [1, 0, 2, 1], "texture": "#1"},
+            				"up": {"uv": [3, 0, 10.75, 1], "texture": "#1"},
+            				"down": {"uv": [3, 0, 10.75, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [9, -14, 1.5],
+            			"to": [16, -13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -2, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 1, 10, 2], "texture": "#1"},
+            				"east": {"uv": [1, 1, 2, 2], "texture": "#1"},
+            				"south": {"uv": [3, 1, 10, 2], "texture": "#1"},
+            				"west": {"uv": [1, 1, 2, 2], "texture": "#1"},
+            				"up": {"uv": [3, 1, 10, 2], "texture": "#1"},
+            				"down": {"uv": [3, 1, 10, 2], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [10.75, -16, 1.5],
+            			"to": [16, -15, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 3, 8.25, 4], "texture": "#1"},
+            				"east": {"uv": [1, 3, 2, 4], "texture": "#1"},
+            				"south": {"uv": [3, 3, 8.25, 4], "texture": "#1"},
+            				"west": {"uv": [1, 3, 2, 4], "texture": "#1"},
+            				"up": {"uv": [3, 3, 8.25, 4], "texture": "#1"},
+            				"down": {"uv": [3, 3, 8.25, 4], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [10, -15, 1.5],
+            			"to": [16, -14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, 0, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 2, 9, 3], "texture": "#1"},
+            				"east": {"uv": [1, 2, 2, 3], "texture": "#1"},
+            				"south": {"uv": [3, 2, 9, 3], "texture": "#1"},
+            				"west": {"uv": [1, 2, 2, 3], "texture": "#1"},
+            				"up": {"uv": [3, 2, 9, 3], "texture": "#1"},
+            				"down": {"uv": [3, 2, 9, 3], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [8, 13, 1.5],
+            			"to": [15, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 7, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 7, 1], "texture": "#1"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	},
+            	"groups": [
+            		0,
+            		1,
+            		{
+            			"name": "curtain_right",
+            			"origin": [13.47442, 10.21309, 2],
+            			"color": 0,
+            			"children": [2, 3, 4, 5, 6, 7]
+            		}
+            	]
+            }
+            """;
+
+    public static String CURTAIN_ROD_CENTER_DRESSED = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"1": "minecraft:block/COLOR_NAME_wool",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [0, 14, 0],
+            			"to": [16, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [0, 6, 16, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [0, 6, 16, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [16, 6, 0, 3], "texture": "#0"},
+            				"down": {"uv": [16, 3, 0, 6], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [8, -12, 1.5],
+            			"to": [16, 13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 0, 11, 16], "texture": "#1"},
+            				"east": {"uv": [1, 0, 2, 16], "texture": "#1"},
+            				"south": {"uv": [3, 0, 11, 16], "texture": "#1"},
+            				"west": {"uv": [1, 0, 2, 16], "texture": "#1"},
+            				"up": {"uv": [3, 0, 11, 1], "texture": "#1"},
+            				"down": {"uv": [3, 0, 11, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [8, 13, 1.5],
+            			"to": [16, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 8, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, 13, 1.5],
+            			"to": [8, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 8, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -12, 1.5],
+            			"to": [8, 13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 8, 16], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 16], "texture": "#1"},
+            				"south": {"uv": [0, 0, 8, 16], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 16], "texture": "#1"},
+            				"up": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 8, 1], "texture": "#1"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	},
+            	"groups": [
+            		0,
+            		{
+            			"name": "curtain_right",
+            			"origin": [13.47442, 10.21309, 2],
+            			"color": 0,
+            			"children": [1, 2]
+            		},
+            		{
+            			"name": "curtain_left",
+            			"origin": [0, 13.5, 2],
+            			"color": 0,
+            			"children": [3, 4]
+            		}
+            	]
+            }
+            """;
+
+    public static String CURTAIN_ROD_DRESSED_OPENED = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"1": "minecraft:block/COLOR_NAME_wool",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [1, 14, 0],
+            			"to": [15, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [1, 6, 15, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [1, 6, 15, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [15, 6, 1, 3], "texture": "#0"},
+            				"down": {"uv": [15, 3, 1, 6], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [0, 13, 0],
+            			"to": [1, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [15, 13, 0],
+            			"to": [16, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [15.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [17.25702, 4.31696, 1.475],
+            			"to": [18.25702, 14.31696, 2.525],
+            			"rotation": {"angle": 22.5, "axis": "z", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [1, 0, 2, 10], "texture": "#1"},
+            				"east": {"uv": [1.05, 0, 2.1, 10], "texture": "#1"},
+            				"south": {"uv": [1, 0, 2, 10], "texture": "#1"},
+            				"west": {"uv": [1.05, 0, 2.1, 10], "texture": "#1"},
+            				"up": {"uv": [1, 0, 2, 1.05], "texture": "#1"},
+            				"down": {"uv": [1, 0, 2, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [13.5, -12, 1.5],
+            			"to": [16, 13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 0, 5.5, 16], "texture": "#1"},
+            				"east": {"uv": [1, 0, 2, 16], "texture": "#1"},
+            				"south": {"uv": [3, 0, 5.5, 16], "texture": "#1"},
+            				"west": {"uv": [1, 0, 2, 16], "texture": "#1"},
+            				"up": {"uv": [3, 0, 5.5, 1], "texture": "#1"},
+            				"down": {"uv": [3, 0, 5.5, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [14, -15, 1.5],
+            			"to": [16, -12, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 0, 5, 3], "texture": "#1"},
+            				"east": {"uv": [1, 0, 2, 3], "texture": "#1"},
+            				"south": {"uv": [3, 0, 5, 3], "texture": "#1"},
+            				"west": {"uv": [1, 0, 2, 3], "texture": "#1"},
+            				"up": {"uv": [3, 0, 5, 1], "texture": "#1"},
+            				"down": {"uv": [3, 0, 5, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [14.75, -16, 1.5],
+            			"to": [16, -15, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 0, 4.25, 1], "texture": "#1"},
+            				"east": {"uv": [1, 0, 2, 1], "texture": "#1"},
+            				"south": {"uv": [3, 0, 4.25, 1], "texture": "#1"},
+            				"west": {"uv": [1, 0, 2, 1], "texture": "#1"},
+            				"up": {"uv": [3, 0, 4.25, 1], "texture": "#1"},
+            				"down": {"uv": [3, 0, 4.25, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [14.17751, -0.44889, 1.475],
+            			"to": [15.27751, 15.55111, 2.525],
+            			"rotation": {"angle": 22.5, "axis": "z", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [1, 0, 2.1, 16], "texture": "#1"},
+            				"east": {"uv": [1.05, 0, 2.1, 16], "texture": "#1"},
+            				"south": {"uv": [1, 0, 2.1, 16], "texture": "#1"},
+            				"west": {"uv": [1.05, 0, 2.1, 16], "texture": "#1"},
+            				"up": {"uv": [1, 0, 2.1, 1.05], "texture": "#1"},
+            				"down": {"uv": [1, 0, 2.1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [16.26385, 1.72835, 1.475],
+            			"to": [17.26385, 14.72835, 2.525],
+            			"rotation": {"angle": 22.5, "axis": "z", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [1, 0, 2, 13], "texture": "#1"},
+            				"east": {"uv": [1.05, 0, 2.1, 13], "texture": "#1"},
+            				"south": {"uv": [1, 0, 2, 13], "texture": "#1"},
+            				"west": {"uv": [1.05, 0, 2.1, 13], "texture": "#1"},
+            				"up": {"uv": [1, 0, 2, 1.05], "texture": "#1"},
+            				"down": {"uv": [1, 0, 2, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [18.25975, 6.92867, 1.475],
+            			"to": [19.25975, 13.92867, 2.525],
+            			"rotation": {"angle": 22.5, "axis": "z", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [1, 0, 2, 7], "texture": "#1"},
+            				"east": {"uv": [1.05, 0, 2.1, 7], "texture": "#1"},
+            				"south": {"uv": [1, 0, 2, 7], "texture": "#1"},
+            				"west": {"uv": [1.05, 0, 2.1, 7], "texture": "#1"},
+            				"up": {"uv": [1, 0, 2, 1.05], "texture": "#1"},
+            				"down": {"uv": [1, 0, 2, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [15.27068, 0.13973, 1.475],
+            			"to": [16.27068, 15.13973, 2.525],
+            			"rotation": {"angle": 22.5, "axis": "z", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [1, 0, 2, 15], "texture": "#1"},
+            				"east": {"uv": [1.05, 0, 2.1, 15], "texture": "#1"},
+            				"south": {"uv": [1, 0, 2, 15], "texture": "#1"},
+            				"west": {"uv": [1.05, 0, 2.1, 15], "texture": "#1"},
+            				"up": {"uv": [1, 0, 2, 1.05], "texture": "#1"},
+            				"down": {"uv": [1, 0, 2, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [9, 13, 1.5],
+            			"to": [15, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 6, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [1, 13, 1.5],
+            			"to": [7, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 6, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [-3.25975, 6.92867, 1.475],
+            			"to": [-2.25975, 13.92867, 2.525],
+            			"rotation": {"angle": -22.5, "axis": "z", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 1, 7], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1.05, 7], "texture": "#1"},
+            				"south": {"uv": [0, 0, 1, 7], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1.05, 7], "texture": "#1"},
+            				"up": {"uv": [0, 0, 1, 1.05], "texture": "#1"},
+            				"down": {"uv": [0, 0, 1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -12, 1.5],
+            			"to": [2.5, 13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 2.5, 16], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 16], "texture": "#1"},
+            				"south": {"uv": [0, 0, 2.5, 16], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 16], "texture": "#1"},
+            				"up": {"uv": [0, 0, 2.5, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 2.5, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [-2.25702, 4.31696, 1.475],
+            			"to": [-1.25702, 14.31696, 2.525],
+            			"rotation": {"angle": -22.5, "axis": "z", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 1, 10], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1.05, 10], "texture": "#1"},
+            				"south": {"uv": [0, 0, 1, 10], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1.05, 10], "texture": "#1"},
+            				"up": {"uv": [0, 0, 1, 1.05], "texture": "#1"},
+            				"down": {"uv": [0, 0, 1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [-1.26385, 1.72835, 1.475],
+            			"to": [-0.26385, 14.72835, 2.525],
+            			"rotation": {"angle": -22.5, "axis": "z", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 1, 13], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1.05, 13], "texture": "#1"},
+            				"south": {"uv": [0, 0, 1, 13], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1.05, 13], "texture": "#1"},
+            				"up": {"uv": [0, 0, 1, 1.05], "texture": "#1"},
+            				"down": {"uv": [0, 0, 1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [-0.27068, 0.13973, 1.475],
+            			"to": [0.72932, 15.13973, 2.525],
+            			"rotation": {"angle": -22.5, "axis": "z", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 1, 15], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1.05, 15], "texture": "#1"},
+            				"south": {"uv": [0, 0, 1, 15], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1.05, 15], "texture": "#1"},
+            				"up": {"uv": [0, 0, 1, 1.05], "texture": "#1"},
+            				"down": {"uv": [0, 0, 1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0.72249, -0.44889, 1.475],
+            			"to": [1.82249, 15.55111, 2.525],
+            			"rotation": {"angle": -22.5, "axis": "z", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 1.1, 16], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1.05, 16], "texture": "#1"},
+            				"south": {"uv": [0, 0, 1.1, 16], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1.05, 16], "texture": "#1"},
+            				"up": {"uv": [0, 0, 1.1, 1.05], "texture": "#1"},
+            				"down": {"uv": [0, 0, 1.1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -15, 1.5],
+            			"to": [2, -12, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [5, 0, 7, 3], "texture": "#1"},
+            				"east": {"uv": [2, 0, 3, 3], "texture": "#1"},
+            				"south": {"uv": [5, 0, 7, 3], "texture": "#1"},
+            				"west": {"uv": [2, 0, 3, 3], "texture": "#1"},
+            				"up": {"uv": [5, 0, 7, 1], "texture": "#1"},
+            				"down": {"uv": [5, 0, 7, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -16, 1.5],
+            			"to": [1.25, -15, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [4.25, 0, 5.5, 1], "texture": "#1"},
+            				"east": {"uv": [2, 0, 3, 1], "texture": "#1"},
+            				"south": {"uv": [4.25, 0, 5.5, 1], "texture": "#1"},
+            				"west": {"uv": [2, 0, 3, 1], "texture": "#1"},
+            				"up": {"uv": [4.25, 0, 5.5, 1], "texture": "#1"},
+            				"down": {"uv": [4.25, 0, 5.5, 1], "texture": "#1"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	},
+            	"groups": [
+            		0,
+            		1,
+            		2,
+            		{
+            			"name": "curtain_right",
+            			"origin": [13.47442, 10.21309, 2],
+            			"color": 0,
+            			"children": [3, 4, 5, 6, 7, 8, 9, 10, 11]
+            		},
+            		{
+            			"name": "curtain_left",
+            			"origin": [0, 13.5, 2],
+            			"color": 0,
+            			"children": [12, 13, 14, 15, 16, 17, 18, 19, 20]
+            		}
+            	]
+            }
+            """;
+
+    public static String CURTAIN_ROD_LEFT_DRESSED_OPENED = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"1": "minecraft:block/COLOR_NAME_wool",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [1, 14, 0],
+            			"to": [16, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [1, 6, 16, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [1, 6, 16, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [16, 6, 1, 3], "texture": "#0"},
+            				"down": {"uv": [16, 3, 1, 6], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [0, 13, 0],
+            			"to": [1, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [1, 13, 1.5],
+            			"to": [7, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 6, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [-3.25975, 6.92867, 1.475],
+            			"to": [-2.25975, 13.92867, 2.525],
+            			"rotation": {"angle": -22.5, "axis": "z", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 1, 7], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1.05, 7], "texture": "#1"},
+            				"south": {"uv": [0, 0, 1, 7], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1.05, 7], "texture": "#1"},
+            				"up": {"uv": [0, 0, 1, 1.05], "texture": "#1"},
+            				"down": {"uv": [0, 0, 1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -12, 1.5],
+            			"to": [2.5, 13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 2.5, 16], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 16], "texture": "#1"},
+            				"south": {"uv": [0, 0, 2.5, 16], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 16], "texture": "#1"},
+            				"up": {"uv": [0, 0, 2.5, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 2.5, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [-2.25702, 4.31696, 1.475],
+            			"to": [-1.25702, 14.31696, 2.525],
+            			"rotation": {"angle": -22.5, "axis": "z", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 1, 10], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1.05, 10], "texture": "#1"},
+            				"south": {"uv": [0, 0, 1, 10], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1.05, 10], "texture": "#1"},
+            				"up": {"uv": [0, 0, 1, 1.05], "texture": "#1"},
+            				"down": {"uv": [0, 0, 1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [-1.26385, 1.72835, 1.475],
+            			"to": [-0.26385, 14.72835, 2.525],
+            			"rotation": {"angle": -22.5, "axis": "z", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 1, 13], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1.05, 13], "texture": "#1"},
+            				"south": {"uv": [0, 0, 1, 13], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1.05, 13], "texture": "#1"},
+            				"up": {"uv": [0, 0, 1, 1.05], "texture": "#1"},
+            				"down": {"uv": [0, 0, 1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [-0.27068, 0.13973, 1.475],
+            			"to": [0.72932, 15.13973, 2.525],
+            			"rotation": {"angle": -22.5, "axis": "z", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 1, 15], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1.05, 15], "texture": "#1"},
+            				"south": {"uv": [0, 0, 1, 15], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1.05, 15], "texture": "#1"},
+            				"up": {"uv": [0, 0, 1, 1.05], "texture": "#1"},
+            				"down": {"uv": [0, 0, 1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0.72249, -0.44889, 1.475],
+            			"to": [1.82249, 15.55111, 2.525],
+            			"rotation": {"angle": -22.5, "axis": "z", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 1.1, 16], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1.05, 16], "texture": "#1"},
+            				"south": {"uv": [0, 0, 1.1, 16], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1.05, 16], "texture": "#1"},
+            				"up": {"uv": [0, 0, 1.1, 1.05], "texture": "#1"},
+            				"down": {"uv": [0, 0, 1.1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -15, 1.5],
+            			"to": [2, -12, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [5, 0, 7, 3], "texture": "#1"},
+            				"east": {"uv": [2, 0, 3, 3], "texture": "#1"},
+            				"south": {"uv": [5, 0, 7, 3], "texture": "#1"},
+            				"west": {"uv": [2, 0, 3, 3], "texture": "#1"},
+            				"up": {"uv": [5, 0, 7, 1], "texture": "#1"},
+            				"down": {"uv": [5, 0, 7, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, -16, 1.5],
+            			"to": [1.25, -15, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [4.25, 0, 5.5, 1], "texture": "#1"},
+            				"east": {"uv": [2, 0, 3, 1], "texture": "#1"},
+            				"south": {"uv": [4.25, 0, 5.5, 1], "texture": "#1"},
+            				"west": {"uv": [2, 0, 3, 1], "texture": "#1"},
+            				"up": {"uv": [4.25, 0, 5.5, 1], "texture": "#1"},
+            				"down": {"uv": [4.25, 0, 5.5, 1], "texture": "#1"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	},
+            	"groups": [
+            		0,
+            		1,
+            		{
+            			"name": "curtain_left",
+            			"origin": [0, 13.5, 2],
+            			"color": 0,
+            			"children": [2, 3, 4, 5, 6, 7, 8, 9, 10]
+            		}
+            	]
+            }
+            """;
+
+    public static String CURTAIN_ROD_RIGHT_DRESSED_OPENED = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"1": "minecraft:block/COLOR_NAME_wool",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [0, 14, 0],
+            			"to": [15, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [0, 6, 15, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [0, 6, 15, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [15, 6, 0, 3], "texture": "#0"},
+            				"down": {"uv": [15, 3, 0, 6], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [15, 13, 0],
+            			"to": [16, 18, 4],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [15.5, 15.5, 2]},
+            			"faces": {
+            				"north": {"uv": [7, 9, 8, 14], "texture": "#0"},
+            				"east": {"uv": [3, 6, 7, 11], "texture": "#0"},
+            				"south": {"uv": [7, 4, 8, 9], "texture": "#0"},
+            				"west": {"uv": [8, 6, 12, 11], "texture": "#0"},
+            				"up": {"uv": [3, 11, 2, 7], "texture": "#0"},
+            				"down": {"uv": [13, 7, 12, 11], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [17.25702, 4.31696, 1.475],
+            			"to": [18.25702, 14.31696, 2.525],
+            			"rotation": {"angle": 22.5, "axis": "z", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [1, 0, 2, 10], "texture": "#1"},
+            				"east": {"uv": [1.05, 0, 2.1, 10], "texture": "#1"},
+            				"south": {"uv": [1, 0, 2, 10], "texture": "#1"},
+            				"west": {"uv": [1.05, 0, 2.1, 10], "texture": "#1"},
+            				"up": {"uv": [1, 0, 2, 1.05], "texture": "#1"},
+            				"down": {"uv": [1, 0, 2, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [13.5, -12, 1.5],
+            			"to": [16, 13, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 0, 5.5, 16], "texture": "#1"},
+            				"east": {"uv": [1, 0, 2, 16], "texture": "#1"},
+            				"south": {"uv": [3, 0, 5.5, 16], "texture": "#1"},
+            				"west": {"uv": [1, 0, 2, 16], "texture": "#1"},
+            				"up": {"uv": [3, 0, 5.5, 1], "texture": "#1"},
+            				"down": {"uv": [3, 0, 5.5, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [14, -15, 1.5],
+            			"to": [16, -12, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 0, 5, 3], "texture": "#1"},
+            				"east": {"uv": [1, 0, 2, 3], "texture": "#1"},
+            				"south": {"uv": [3, 0, 5, 3], "texture": "#1"},
+            				"west": {"uv": [1, 0, 2, 3], "texture": "#1"},
+            				"up": {"uv": [3, 0, 5, 1], "texture": "#1"},
+            				"down": {"uv": [3, 0, 5, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [14.75, -16, 1.5],
+            			"to": [16, -15, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [3, 0, 4.25, 1], "texture": "#1"},
+            				"east": {"uv": [1, 0, 2, 1], "texture": "#1"},
+            				"south": {"uv": [3, 0, 4.25, 1], "texture": "#1"},
+            				"west": {"uv": [1, 0, 2, 1], "texture": "#1"},
+            				"up": {"uv": [3, 0, 4.25, 1], "texture": "#1"},
+            				"down": {"uv": [3, 0, 4.25, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [14.17751, -0.44889, 1.475],
+            			"to": [15.27751, 15.55111, 2.525],
+            			"rotation": {"angle": 22.5, "axis": "z", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [1, 0, 2.1, 16], "texture": "#1"},
+            				"east": {"uv": [1.05, 0, 2.1, 16], "texture": "#1"},
+            				"south": {"uv": [1, 0, 2.1, 16], "texture": "#1"},
+            				"west": {"uv": [1.05, 0, 2.1, 16], "texture": "#1"},
+            				"up": {"uv": [1, 0, 2.1, 1.05], "texture": "#1"},
+            				"down": {"uv": [1, 0, 2.1, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [16.26385, 1.72835, 1.475],
+            			"to": [17.26385, 14.72835, 2.525],
+            			"rotation": {"angle": 22.5, "axis": "z", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [1, 0, 2, 13], "texture": "#1"},
+            				"east": {"uv": [1.05, 0, 2.1, 13], "texture": "#1"},
+            				"south": {"uv": [1, 0, 2, 13], "texture": "#1"},
+            				"west": {"uv": [1.05, 0, 2.1, 13], "texture": "#1"},
+            				"up": {"uv": [1, 0, 2, 1.05], "texture": "#1"},
+            				"down": {"uv": [1, 0, 2, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [18.25975, 6.92867, 1.475],
+            			"to": [19.25975, 13.92867, 2.525],
+            			"rotation": {"angle": 22.5, "axis": "z", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [1, 0, 2, 7], "texture": "#1"},
+            				"east": {"uv": [1.05, 0, 2.1, 7], "texture": "#1"},
+            				"south": {"uv": [1, 0, 2, 7], "texture": "#1"},
+            				"west": {"uv": [1.05, 0, 2.1, 7], "texture": "#1"},
+            				"up": {"uv": [1, 0, 2, 1.05], "texture": "#1"},
+            				"down": {"uv": [1, 0, 2, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [15.27068, 0.13973, 1.475],
+            			"to": [16.27068, 15.13973, 2.525],
+            			"rotation": {"angle": 22.5, "axis": "z", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [1, 0, 2, 15], "texture": "#1"},
+            				"east": {"uv": [1.05, 0, 2.1, 15], "texture": "#1"},
+            				"south": {"uv": [1, 0, 2, 15], "texture": "#1"},
+            				"west": {"uv": [1.05, 0, 2.1, 15], "texture": "#1"},
+            				"up": {"uv": [1, 0, 2, 1.05], "texture": "#1"},
+            				"down": {"uv": [1, 0, 2, 1.05], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [9, 13, 1.5],
+            			"to": [15, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 6, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 6, 1], "texture": "#1"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	},
+            	"groups": [
+            		0,
+            		1,
+            		{
+            			"name": "curtain_right",
+            			"origin": [13.47442, 10.21309, 2],
+            			"color": 0,
+            			"children": [2, 3, 4, 5, 6, 7, 8, 9, 10]
+            		}
+            	]
+            }
+            """;
+
+    public static String CURTAIN_ROD_CENTER_DRESSED_OPENED = """
+            {
+            	"format_version": "1.9.0",
+            	"credit": "Made with Blockbench",
+            	"textures": {
+            		"0": "MATERIAL_NAME",
+            		"1": "minecraft:block/COLOR_NAME_wool",
+            		"particle": "MATERIAL_NAME"
+            	},
+            	"elements": [
+            		{
+            			"from": [0, 14, 0],
+            			"to": [16, 17, 3],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 1.5]},
+            			"faces": {
+            				"north": {"uv": [0, 6, 16, 9], "texture": "#0"},
+            				"east": {"uv": [2, 9, 5, 12], "texture": "#0"},
+            				"south": {"uv": [0, 6, 16, 9], "texture": "#0"},
+            				"west": {"uv": [11, 9, 14, 12], "texture": "#0"},
+            				"up": {"uv": [16, 6, 0, 3], "texture": "#0"},
+            				"down": {"uv": [16, 3, 0, 6], "texture": "#0"}
+            			}
+            		},
+            		{
+            			"from": [8, 13, 1.5],
+            			"to": [16, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [13.36314, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 8, 1], "texture": "#1"}
+            			}
+            		},
+            		{
+            			"from": [0, 13, 1.5],
+            			"to": [8, 14, 2.5],
+            			"rotation": {"angle": 0, "axis": "y", "origin": [2.63686, -1, 2]},
+            			"faces": {
+            				"north": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"south": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+            				"up": {"uv": [0, 0, 8, 1], "texture": "#1"},
+            				"down": {"uv": [0, 0, 8, 1], "texture": "#1"}
+            			}
+            		}
+            	],
+            	"display": {
+            		"thirdperson_righthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"thirdperson_lefthand": {
+            			"translation": [0.5, -3.5, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_righthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"firstperson_lefthand": {
+            			"translation": [0.5, -2.75, 3.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"ground": {
+            			"translation": [0, -3.5, 4.5],
+            			"scale": [0.5, 0.5, 0.5]
+            		},
+            		"gui": {
+            			"rotation": [30, -45, 0],
+            			"translation": [-2, -3.5, 0],
+            			"scale": [0.6, 0.6, 0.6]
+            		},
+            		"fixed": {
+            			"rotation": [0, -180, 0],
+            			"translation": [0, -1.5, -3],
+            			"scale": [0.5, 0.5, 0.5]
+            		}
+            	},
+            	"groups": [
+            		0,
+            		{
+            			"name": "curtain_right",
+            			"origin": [13.47442, 10.21309, 2],
+            			"color": 0,
+            			"children": [1]
+            		},
+            		{
+            			"name": "curtain_left",
+            			"origin": [0, 13.5, 2],
+            			"color": 0,
+            			"children": [2]
+            		}
+            	]
+            }
+            """;
+
+    public static String CURTAIN_ROD_BLOCKSTATE = """
+            {
+              "variants":
+              {
+                "facing=north,color=black,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=black,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=black,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=black,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=black,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=black,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=black,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=black,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=black,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=black,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=black,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=black,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=black,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=black,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=black,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=black,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=black,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_black" },
+                "facing=south,color=black,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_black", "y": 180 },
+                "facing=west,color=black,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_black", "y": 270 },
+                "facing=east,color=black,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_black", "y": 90 },
+                "facing=north,color=black,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_black" },
+                "facing=south,color=black,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_black", "y": 180 },
+                "facing=west,color=black,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_black", "y": 270 },
+                "facing=east,color=black,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_black", "y": 90 },
+                "facing=north,color=black,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_black" },
+                "facing=south,color=black,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_black", "y": 180 },
+                "facing=west,color=black,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_black", "y": 270 },
+                "facing=east,color=black,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_black", "y": 90 },
+                "facing=north,color=black,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_black" },
+                "facing=south,color=black,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_black", "y": 180 },
+                "facing=west,color=black,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_black", "y": 270 },
+                "facing=east,color=black,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_black", "y": 90 },
+                "facing=north,color=black,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_black_opened" },
+                "facing=south,color=black,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_black_opened", "y": 180 },
+                "facing=west,color=black,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_black_opened", "y": 270 },
+                "facing=east,color=black,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_black_opened", "y": 90 },
+                "facing=north,color=black,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_black_opened" },
+                "facing=south,color=black,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_black_opened", "y": 180 },
+                "facing=west,color=black,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_black_opened", "y": 270 },
+                "facing=east,color=black,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_black_opened", "y": 90 },
+                "facing=north,color=black,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_black_opened" },
+                "facing=south,color=black,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_black_opened", "y": 180 },
+                "facing=west,color=black,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_black_opened", "y": 270 },
+                "facing=east,color=black,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_black_opened", "y": 90 },
+                "facing=north,color=black,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_black_opened" },
+                "facing=south,color=black,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_black_opened", "y": 180 },
+                "facing=west,color=black,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_black_opened", "y": 270 },
+                "facing=east,color=black,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_black_opened", "y": 90 },
+                "facing=north,color=black,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=black,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=black,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=black,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=black,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=black,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=black,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=black,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=black,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=black,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=black,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=black,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=black,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=black,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=black,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=black,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=brown,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=brown,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=brown,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=brown,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=brown,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=brown,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=brown,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=brown,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=brown,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=brown,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=brown,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=brown,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=brown,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=brown,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=brown,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=brown,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=brown,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_brown" },
+                "facing=south,color=brown,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_brown", "y": 180 },
+                "facing=west,color=brown,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_brown", "y": 270 },
+                "facing=east,color=brown,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_brown", "y": 90 },
+                "facing=north,color=brown,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_brown" },
+                "facing=south,color=brown,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_brown", "y": 180 },
+                "facing=west,color=brown,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_brown", "y": 270 },
+                "facing=east,color=brown,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_brown", "y": 90 },
+                "facing=north,color=brown,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_brown" },
+                "facing=south,color=brown,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_brown", "y": 180 },
+                "facing=west,color=brown,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_brown", "y": 270 },
+                "facing=east,color=brown,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_brown", "y": 90 },
+                "facing=north,color=brown,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_brown" },
+                "facing=south,color=brown,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_brown", "y": 180 },
+                "facing=west,color=brown,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_brown", "y": 270 },
+                "facing=east,color=brown,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_brown", "y": 90 },
+                "facing=north,color=brown,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_brown_opened" },
+                "facing=south,color=brown,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_brown_opened", "y": 180 },
+                "facing=west,color=brown,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_brown_opened", "y": 270 },
+                "facing=east,color=brown,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_brown_opened", "y": 90 },
+                "facing=north,color=brown,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_brown_opened" },
+                "facing=south,color=brown,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_brown_opened", "y": 180 },
+                "facing=west,color=brown,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_brown_opened", "y": 270 },
+                "facing=east,color=brown,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_brown_opened", "y": 90 },
+                "facing=north,color=brown,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_brown_opened" },
+                "facing=south,color=brown,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_brown_opened", "y": 180 },
+                "facing=west,color=brown,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_brown_opened", "y": 270 },
+                "facing=east,color=brown,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_brown_opened", "y": 90 },
+                "facing=north,color=brown,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_brown_opened" },
+                "facing=south,color=brown,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_brown_opened", "y": 180 },
+                "facing=west,color=brown,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_brown_opened", "y": 270 },
+                "facing=east,color=brown,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_brown_opened", "y": 90 },
+                "facing=north,color=brown,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=brown,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=brown,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=brown,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=brown,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=brown,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=brown,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=brown,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=brown,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=brown,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=brown,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=brown,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=brown,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=brown,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=brown,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=brown,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=gray,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=gray,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=gray,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=gray,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=gray,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=gray,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=gray,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=gray,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=gray,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=gray,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=gray,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=gray,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=gray,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=gray,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=gray,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=gray,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=gray,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_gray" },
+                "facing=south,color=gray,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_gray", "y": 180 },
+                "facing=west,color=gray,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_gray", "y": 270 },
+                "facing=east,color=gray,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_gray", "y": 90 },
+                "facing=north,color=gray,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_gray" },
+                "facing=south,color=gray,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_gray", "y": 180 },
+                "facing=west,color=gray,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_gray", "y": 270 },
+                "facing=east,color=gray,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_gray", "y": 90 },
+                "facing=north,color=gray,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_gray" },
+                "facing=south,color=gray,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_gray", "y": 180 },
+                "facing=west,color=gray,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_gray", "y": 270 },
+                "facing=east,color=gray,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_gray", "y": 90 },
+                "facing=north,color=gray,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_gray" },
+                "facing=south,color=gray,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_gray", "y": 180 },
+                "facing=west,color=gray,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_gray", "y": 270 },
+                "facing=east,color=gray,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_gray", "y": 90 },
+                "facing=north,color=gray,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_gray_opened" },
+                "facing=south,color=gray,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_gray_opened", "y": 180 },
+                "facing=west,color=gray,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_gray_opened", "y": 270 },
+                "facing=east,color=gray,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_gray_opened", "y": 90 },
+                "facing=north,color=gray,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_gray_opened" },
+                "facing=south,color=gray,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_gray_opened", "y": 180 },
+                "facing=west,color=gray,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_gray_opened", "y": 270 },
+                "facing=east,color=gray,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_gray_opened", "y": 90 },
+                "facing=north,color=gray,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_gray_opened" },
+                "facing=south,color=gray,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_gray_opened", "y": 180 },
+                "facing=west,color=gray,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_gray_opened", "y": 270 },
+                "facing=east,color=gray,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_gray_opened", "y": 90 },
+                "facing=north,color=gray,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_gray_opened" },
+                "facing=south,color=gray,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_gray_opened", "y": 180 },
+                "facing=west,color=gray,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_gray_opened", "y": 270 },
+                "facing=east,color=gray,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_gray_opened", "y": 90 },
+                "facing=north,color=gray,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=gray,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=gray,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=gray,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=gray,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=gray,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=gray,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=gray,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=gray,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=gray,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=gray,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=gray,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=gray,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=gray,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=gray,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=gray,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=light_gray,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=light_gray,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=light_gray,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=light_gray,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=light_gray,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=light_gray,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=light_gray,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=light_gray,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=light_gray,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=light_gray,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=light_gray,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=light_gray,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=light_gray,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=light_gray,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=light_gray,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=light_gray,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=light_gray,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_gray" },
+                "facing=south,color=light_gray,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_gray", "y": 180 },
+                "facing=west,color=light_gray,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_gray", "y": 270 },
+                "facing=east,color=light_gray,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_gray", "y": 90 },
+                "facing=north,color=light_gray,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_gray" },
+                "facing=south,color=light_gray,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_gray", "y": 180 },
+                "facing=west,color=light_gray,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_gray", "y": 270 },
+                "facing=east,color=light_gray,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_gray", "y": 90 },
+                "facing=north,color=light_gray,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_gray" },
+                "facing=south,color=light_gray,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_gray", "y": 180 },
+                "facing=west,color=light_gray,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_gray", "y": 270 },
+                "facing=east,color=light_gray,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_gray", "y": 90 },
+                "facing=north,color=light_gray,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_gray" },
+                "facing=south,color=light_gray,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_gray", "y": 180 },
+                "facing=west,color=light_gray,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_gray", "y": 270 },
+                "facing=east,color=light_gray,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_gray", "y": 90 },
+                "facing=north,color=light_gray,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_gray_opened" },
+                "facing=south,color=light_gray,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_gray_opened", "y": 180 },
+                "facing=west,color=light_gray,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_gray_opened", "y": 270 },
+                "facing=east,color=light_gray,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_gray_opened", "y": 90 },
+                "facing=north,color=light_gray,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_gray_opened" },
+                "facing=south,color=light_gray,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_gray_opened", "y": 180 },
+                "facing=west,color=light_gray,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_gray_opened", "y": 270 },
+                "facing=east,color=light_gray,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_gray_opened", "y": 90 },
+                "facing=north,color=light_gray,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_gray_opened" },
+                "facing=south,color=light_gray,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_gray_opened", "y": 180 },
+                "facing=west,color=light_gray,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_gray_opened", "y": 270 },
+                "facing=east,color=light_gray,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_gray_opened", "y": 90 },
+                "facing=north,color=light_gray,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_gray_opened" },
+                "facing=south,color=light_gray,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_gray_opened", "y": 180 },
+                "facing=west,color=light_gray,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_gray_opened", "y": 270 },
+                "facing=east,color=light_gray,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_gray_opened", "y": 90 },
+                "facing=north,color=light_gray,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=light_gray,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=light_gray,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=light_gray,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=light_gray,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=light_gray,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=light_gray,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=light_gray,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=light_gray,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=light_gray,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=light_gray,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=light_gray,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=light_gray,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=light_gray,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=light_gray,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=light_gray,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=white,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=white,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=white,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=white,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=white,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=white,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=white,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=white,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=white,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=white,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=white,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=white,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=white,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=white,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=white,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=white,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=white,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_white" },
+                "facing=south,color=white,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_white", "y": 180 },
+                "facing=west,color=white,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_white", "y": 270 },
+                "facing=east,color=white,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_white", "y": 90 },
+                "facing=north,color=white,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_white" },
+                "facing=south,color=white,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_white", "y": 180 },
+                "facing=west,color=white,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_white", "y": 270 },
+                "facing=east,color=white,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_white", "y": 90 },
+                "facing=north,color=white,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_white" },
+                "facing=south,color=white,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_white", "y": 180 },
+                "facing=west,color=white,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_white", "y": 270 },
+                "facing=east,color=white,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_white", "y": 90 },
+                "facing=north,color=white,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_white" },
+                "facing=south,color=white,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_white", "y": 180 },
+                "facing=west,color=white,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_white", "y": 270 },
+                "facing=east,color=white,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_white", "y": 90 },
+                "facing=north,color=white,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_white_opened" },
+                "facing=south,color=white,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_white_opened", "y": 180 },
+                "facing=west,color=white,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_white_opened", "y": 270 },
+                "facing=east,color=white,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_white_opened", "y": 90 },
+                "facing=north,color=white,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_white_opened" },
+                "facing=south,color=white,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_white_opened", "y": 180 },
+                "facing=west,color=white,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_white_opened", "y": 270 },
+                "facing=east,color=white,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_white_opened", "y": 90 },
+                "facing=north,color=white,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_white_opened" },
+                "facing=south,color=white,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_white_opened", "y": 180 },
+                "facing=west,color=white,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_white_opened", "y": 270 },
+                "facing=east,color=white,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_white_opened", "y": 90 },
+                "facing=north,color=white,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_white_opened" },
+                "facing=south,color=white,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_white_opened", "y": 180 },
+                "facing=west,color=white,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_white_opened", "y": 270 },
+                "facing=east,color=white,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_white_opened", "y": 90 },
+                "facing=north,color=white,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=white,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=white,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=white,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=white,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=white,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=white,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=white,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=white,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=white,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=white,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=white,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=white,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=white,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=white,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=white,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=red,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=red,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=red,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=red,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=red,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=red,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=red,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=red,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=red,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=red,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=red,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=red,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=red,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=red,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=red,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=red,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=red,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_red" },
+                "facing=south,color=red,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_red", "y": 180 },
+                "facing=west,color=red,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_red", "y": 270 },
+                "facing=east,color=red,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_red", "y": 90 },
+                "facing=north,color=red,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_red" },
+                "facing=south,color=red,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_red", "y": 180 },
+                "facing=west,color=red,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_red", "y": 270 },
+                "facing=east,color=red,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_red", "y": 90 },
+                "facing=north,color=red,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_red" },
+                "facing=south,color=red,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_red", "y": 180 },
+                "facing=west,color=red,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_red", "y": 270 },
+                "facing=east,color=red,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_red", "y": 90 },
+                "facing=north,color=red,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_red" },
+                "facing=south,color=red,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_red", "y": 180 },
+                "facing=west,color=red,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_red", "y": 270 },
+                "facing=east,color=red,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_red", "y": 90 },
+                "facing=north,color=red,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_red_opened" },
+                "facing=south,color=red,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_red_opened", "y": 180 },
+                "facing=west,color=red,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_red_opened", "y": 270 },
+                "facing=east,color=red,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_red_opened", "y": 90 },
+                "facing=north,color=red,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_red_opened" },
+                "facing=south,color=red,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_red_opened", "y": 180 },
+                "facing=west,color=red,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_red_opened", "y": 270 },
+                "facing=east,color=red,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_red_opened", "y": 90 },
+                "facing=north,color=red,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_red_opened" },
+                "facing=south,color=red,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_red_opened", "y": 180 },
+                "facing=west,color=red,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_red_opened", "y": 270 },
+                "facing=east,color=red,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_red_opened", "y": 90 },
+                "facing=north,color=red,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_red_opened" },
+                "facing=south,color=red,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_red_opened", "y": 180 },
+                "facing=west,color=red,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_red_opened", "y": 270 },
+                "facing=east,color=red,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_red_opened", "y": 90 },
+                "facing=north,color=red,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=red,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=red,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=red,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=red,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=red,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=red,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=red,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=red,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=red,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=red,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=red,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=red,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=red,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=red,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=red,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=orange,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=orange,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=orange,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=orange,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=orange,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=orange,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=orange,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=orange,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=orange,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=orange,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=orange,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=orange,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=orange,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=orange,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=orange,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=orange,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=orange,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_orange" },
+                "facing=south,color=orange,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_orange", "y": 180 },
+                "facing=west,color=orange,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_orange", "y": 270 },
+                "facing=east,color=orange,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_orange", "y": 90 },
+                "facing=north,color=orange,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_orange" },
+                "facing=south,color=orange,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_orange", "y": 180 },
+                "facing=west,color=orange,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_orange", "y": 270 },
+                "facing=east,color=orange,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_orange", "y": 90 },
+                "facing=north,color=orange,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_orange" },
+                "facing=south,color=orange,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_orange", "y": 180 },
+                "facing=west,color=orange,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_orange", "y": 270 },
+                "facing=east,color=orange,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_orange", "y": 90 },
+                "facing=north,color=orange,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_orange" },
+                "facing=south,color=orange,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_orange", "y": 180 },
+                "facing=west,color=orange,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_orange", "y": 270 },
+                "facing=east,color=orange,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_orange", "y": 90 },
+                "facing=north,color=orange,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_orange_opened" },
+                "facing=south,color=orange,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_orange_opened", "y": 180 },
+                "facing=west,color=orange,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_orange_opened", "y": 270 },
+                "facing=east,color=orange,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_orange_opened", "y": 90 },
+                "facing=north,color=orange,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_orange_opened" },
+                "facing=south,color=orange,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_orange_opened", "y": 180 },
+                "facing=west,color=orange,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_orange_opened", "y": 270 },
+                "facing=east,color=orange,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_orange_opened", "y": 90 },
+                "facing=north,color=orange,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_orange_opened" },
+                "facing=south,color=orange,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_orange_opened", "y": 180 },
+                "facing=west,color=orange,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_orange_opened", "y": 270 },
+                "facing=east,color=orange,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_orange_opened", "y": 90 },
+                "facing=north,color=orange,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_orange_opened" },
+                "facing=south,color=orange,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_orange_opened", "y": 180 },
+                "facing=west,color=orange,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_orange_opened", "y": 270 },
+                "facing=east,color=orange,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_orange_opened", "y": 90 },
+                "facing=north,color=orange,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=orange,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=orange,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=orange,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=orange,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=orange,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=orange,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=orange,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=orange,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=orange,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=orange,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=orange,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=orange,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=orange,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=orange,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=orange,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=yellow,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=yellow,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=yellow,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=yellow,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=yellow,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=yellow,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=yellow,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=yellow,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=yellow,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=yellow,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=yellow,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=yellow,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=yellow,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=yellow,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=yellow,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=yellow,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=yellow,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_yellow" },
+                "facing=south,color=yellow,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_yellow", "y": 180 },
+                "facing=west,color=yellow,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_yellow", "y": 270 },
+                "facing=east,color=yellow,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_yellow", "y": 90 },
+                "facing=north,color=yellow,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_yellow" },
+                "facing=south,color=yellow,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_yellow", "y": 180 },
+                "facing=west,color=yellow,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_yellow", "y": 270 },
+                "facing=east,color=yellow,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_yellow", "y": 90 },
+                "facing=north,color=yellow,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_yellow" },
+                "facing=south,color=yellow,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_yellow", "y": 180 },
+                "facing=west,color=yellow,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_yellow", "y": 270 },
+                "facing=east,color=yellow,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_yellow", "y": 90 },
+                "facing=north,color=yellow,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_yellow" },
+                "facing=south,color=yellow,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_yellow", "y": 180 },
+                "facing=west,color=yellow,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_yellow", "y": 270 },
+                "facing=east,color=yellow,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_yellow", "y": 90 },
+                "facing=north,color=yellow,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_yellow_opened" },
+                "facing=south,color=yellow,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_yellow_opened", "y": 180 },
+                "facing=west,color=yellow,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_yellow_opened", "y": 270 },
+                "facing=east,color=yellow,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_yellow_opened", "y": 90 },
+                "facing=north,color=yellow,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_yellow_opened" },
+                "facing=south,color=yellow,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_yellow_opened", "y": 180 },
+                "facing=west,color=yellow,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_yellow_opened", "y": 270 },
+                "facing=east,color=yellow,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_yellow_opened", "y": 90 },
+                "facing=north,color=yellow,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_yellow_opened" },
+                "facing=south,color=yellow,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_yellow_opened", "y": 180 },
+                "facing=west,color=yellow,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_yellow_opened", "y": 270 },
+                "facing=east,color=yellow,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_yellow_opened", "y": 90 },
+                "facing=north,color=yellow,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_yellow_opened" },
+                "facing=south,color=yellow,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_yellow_opened", "y": 180 },
+                "facing=west,color=yellow,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_yellow_opened", "y": 270 },
+                "facing=east,color=yellow,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_yellow_opened", "y": 90 },
+                "facing=north,color=yellow,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=yellow,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=yellow,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=yellow,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=yellow,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=yellow,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=yellow,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=yellow,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=yellow,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=yellow,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=yellow,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=yellow,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=yellow,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=yellow,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=yellow,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=yellow,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=purple,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=purple,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=purple,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=purple,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=purple,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=purple,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=purple,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=purple,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=purple,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=purple,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=purple,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=purple,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=purple,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=purple,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=purple,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=purple,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=purple,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_purple" },
+                "facing=south,color=purple,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_purple", "y": 180 },
+                "facing=west,color=purple,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_purple", "y": 270 },
+                "facing=east,color=purple,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_purple", "y": 90 },
+                "facing=north,color=purple,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_purple" },
+                "facing=south,color=purple,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_purple", "y": 180 },
+                "facing=west,color=purple,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_purple", "y": 270 },
+                "facing=east,color=purple,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_purple", "y": 90 },
+                "facing=north,color=purple,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_purple" },
+                "facing=south,color=purple,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_purple", "y": 180 },
+                "facing=west,color=purple,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_purple", "y": 270 },
+                "facing=east,color=purple,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_purple", "y": 90 },
+                "facing=north,color=purple,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_purple" },
+                "facing=south,color=purple,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_purple", "y": 180 },
+                "facing=west,color=purple,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_purple", "y": 270 },
+                "facing=east,color=purple,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_purple", "y": 90 },
+                "facing=north,color=purple,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_purple_opened" },
+                "facing=south,color=purple,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_purple_opened", "y": 180 },
+                "facing=west,color=purple,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_purple_opened", "y": 270 },
+                "facing=east,color=purple,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_purple_opened", "y": 90 },
+                "facing=north,color=purple,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_purple_opened" },
+                "facing=south,color=purple,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_purple_opened", "y": 180 },
+                "facing=west,color=purple,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_purple_opened", "y": 270 },
+                "facing=east,color=purple,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_purple_opened", "y": 90 },
+                "facing=north,color=purple,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_purple_opened" },
+                "facing=south,color=purple,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_purple_opened", "y": 180 },
+                "facing=west,color=purple,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_purple_opened", "y": 270 },
+                "facing=east,color=purple,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_purple_opened", "y": 90 },
+                "facing=north,color=purple,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_purple_opened" },
+                "facing=south,color=purple,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_purple_opened", "y": 180 },
+                "facing=west,color=purple,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_purple_opened", "y": 270 },
+                "facing=east,color=purple,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_purple_opened", "y": 90 },
+                "facing=north,color=purple,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=purple,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=purple,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=purple,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=purple,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=purple,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=purple,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=purple,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=purple,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=purple,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=purple,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=purple,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=purple,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=purple,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=purple,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=purple,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=magenta,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=magenta,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=magenta,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=magenta,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=magenta,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=magenta,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=magenta,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=magenta,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=magenta,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=magenta,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=magenta,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=magenta,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=magenta,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=magenta,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=magenta,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=magenta,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=magenta,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_magenta" },
+                "facing=south,color=magenta,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_magenta", "y": 180 },
+                "facing=west,color=magenta,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_magenta", "y": 270 },
+                "facing=east,color=magenta,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_magenta", "y": 90 },
+                "facing=north,color=magenta,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_magenta" },
+                "facing=south,color=magenta,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_magenta", "y": 180 },
+                "facing=west,color=magenta,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_magenta", "y": 270 },
+                "facing=east,color=magenta,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_magenta", "y": 90 },
+                "facing=north,color=magenta,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_magenta" },
+                "facing=south,color=magenta,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_magenta", "y": 180 },
+                "facing=west,color=magenta,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_magenta", "y": 270 },
+                "facing=east,color=magenta,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_magenta", "y": 90 },
+                "facing=north,color=magenta,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_magenta" },
+                "facing=south,color=magenta,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_magenta", "y": 180 },
+                "facing=west,color=magenta,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_magenta", "y": 270 },
+                "facing=east,color=magenta,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_magenta", "y": 90 },
+                "facing=north,color=magenta,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_magenta_opened" },
+                "facing=south,color=magenta,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_magenta_opened", "y": 180 },
+                "facing=west,color=magenta,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_magenta_opened", "y": 270 },
+                "facing=east,color=magenta,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_magenta_opened", "y": 90 },
+                "facing=north,color=magenta,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_magenta_opened" },
+                "facing=south,color=magenta,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_magenta_opened", "y": 180 },
+                "facing=west,color=magenta,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_magenta_opened", "y": 270 },
+                "facing=east,color=magenta,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_magenta_opened", "y": 90 },
+                "facing=north,color=magenta,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_magenta_opened" },
+                "facing=south,color=magenta,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_magenta_opened", "y": 180 },
+                "facing=west,color=magenta,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_magenta_opened", "y": 270 },
+                "facing=east,color=magenta,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_magenta_opened", "y": 90 },
+                "facing=north,color=magenta,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_magenta_opened" },
+                "facing=south,color=magenta,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_magenta_opened", "y": 180 },
+                "facing=west,color=magenta,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_magenta_opened", "y": 270 },
+                "facing=east,color=magenta,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_magenta_opened", "y": 90 },
+                "facing=north,color=magenta,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=magenta,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=magenta,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=magenta,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=magenta,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=magenta,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=magenta,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=magenta,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=magenta,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=magenta,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=magenta,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=magenta,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=magenta,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=magenta,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=magenta,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=magenta,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=pink,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=pink,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=pink,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=pink,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=pink,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=pink,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=pink,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=pink,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=pink,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=pink,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=pink,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=pink,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=pink,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=pink,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=pink,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=pink,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=pink,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_pink" },
+                "facing=south,color=pink,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_pink", "y": 180 },
+                "facing=west,color=pink,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_pink", "y": 270 },
+                "facing=east,color=pink,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_pink", "y": 90 },
+                "facing=north,color=pink,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_pink" },
+                "facing=south,color=pink,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_pink", "y": 180 },
+                "facing=west,color=pink,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_pink", "y": 270 },
+                "facing=east,color=pink,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_pink", "y": 90 },
+                "facing=north,color=pink,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_pink" },
+                "facing=south,color=pink,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_pink", "y": 180 },
+                "facing=west,color=pink,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_pink", "y": 270 },
+                "facing=east,color=pink,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_pink", "y": 90 },
+                "facing=north,color=pink,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_pink" },
+                "facing=south,color=pink,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_pink", "y": 180 },
+                "facing=west,color=pink,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_pink", "y": 270 },
+                "facing=east,color=pink,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_pink", "y": 90 },
+                "facing=north,color=pink,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_pink_opened" },
+                "facing=south,color=pink,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_pink_opened", "y": 180 },
+                "facing=west,color=pink,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_pink_opened", "y": 270 },
+                "facing=east,color=pink,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_pink_opened", "y": 90 },
+                "facing=north,color=pink,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_pink_opened" },
+                "facing=south,color=pink,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_pink_opened", "y": 180 },
+                "facing=west,color=pink,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_pink_opened", "y": 270 },
+                "facing=east,color=pink,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_pink_opened", "y": 90 },
+                "facing=north,color=pink,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_pink_opened" },
+                "facing=south,color=pink,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_pink_opened", "y": 180 },
+                "facing=west,color=pink,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_pink_opened", "y": 270 },
+                "facing=east,color=pink,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_pink_opened", "y": 90 },
+                "facing=north,color=pink,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_pink_opened" },
+                "facing=south,color=pink,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_pink_opened", "y": 180 },
+                "facing=west,color=pink,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_pink_opened", "y": 270 },
+                "facing=east,color=pink,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_pink_opened", "y": 90 },
+                "facing=north,color=pink,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=pink,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=pink,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=pink,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=pink,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=pink,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=pink,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=pink,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=pink,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=pink,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=pink,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=pink,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=pink,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=pink,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=pink,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=pink,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=blue,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=blue,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=blue,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=blue,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=blue,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=blue,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=blue,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=blue,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=blue,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=blue,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=blue,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=blue,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=blue,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=blue,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=blue,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=blue,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=blue,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_blue" },
+                "facing=south,color=blue,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_blue", "y": 180 },
+                "facing=west,color=blue,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_blue", "y": 270 },
+                "facing=east,color=blue,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_blue", "y": 90 },
+                "facing=north,color=blue,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_blue" },
+                "facing=south,color=blue,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_blue", "y": 180 },
+                "facing=west,color=blue,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_blue", "y": 270 },
+                "facing=east,color=blue,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_blue", "y": 90 },
+                "facing=north,color=blue,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_blue" },
+                "facing=south,color=blue,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_blue", "y": 180 },
+                "facing=west,color=blue,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_blue", "y": 270 },
+                "facing=east,color=blue,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_blue", "y": 90 },
+                "facing=north,color=blue,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_blue" },
+                "facing=south,color=blue,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_blue", "y": 180 },
+                "facing=west,color=blue,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_blue", "y": 270 },
+                "facing=east,color=blue,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_blue", "y": 90 },
+                "facing=north,color=blue,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_blue_opened" },
+                "facing=south,color=blue,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_blue_opened", "y": 180 },
+                "facing=west,color=blue,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_blue_opened", "y": 270 },
+                "facing=east,color=blue,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_blue_opened", "y": 90 },
+                "facing=north,color=blue,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_blue_opened" },
+                "facing=south,color=blue,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_blue_opened", "y": 180 },
+                "facing=west,color=blue,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_blue_opened", "y": 270 },
+                "facing=east,color=blue,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_blue_opened", "y": 90 },
+                "facing=north,color=blue,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_blue_opened" },
+                "facing=south,color=blue,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_blue_opened", "y": 180 },
+                "facing=west,color=blue,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_blue_opened", "y": 270 },
+                "facing=east,color=blue,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_blue_opened", "y": 90 },
+                "facing=north,color=blue,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_blue_opened" },
+                "facing=south,color=blue,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_blue_opened", "y": 180 },
+                "facing=west,color=blue,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_blue_opened", "y": 270 },
+                "facing=east,color=blue,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_blue_opened", "y": 90 },
+                "facing=north,color=blue,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=blue,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=blue,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=blue,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=blue,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=blue,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=blue,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=blue,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=blue,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=blue,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=blue,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=blue,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=blue,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=blue,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=blue,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=blue,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=cyan,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=cyan,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=cyan,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=cyan,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=cyan,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=cyan,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=cyan,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=cyan,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=cyan,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=cyan,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=cyan,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=cyan,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=cyan,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=cyan,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=cyan,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=cyan,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=cyan,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_cyan" },
+                "facing=south,color=cyan,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_cyan", "y": 180 },
+                "facing=west,color=cyan,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_cyan", "y": 270 },
+                "facing=east,color=cyan,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_cyan", "y": 90 },
+                "facing=north,color=cyan,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_cyan" },
+                "facing=south,color=cyan,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_cyan", "y": 180 },
+                "facing=west,color=cyan,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_cyan", "y": 270 },
+                "facing=east,color=cyan,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_cyan", "y": 90 },
+                "facing=north,color=cyan,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_cyan" },
+                "facing=south,color=cyan,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_cyan", "y": 180 },
+                "facing=west,color=cyan,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_cyan", "y": 270 },
+                "facing=east,color=cyan,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_cyan", "y": 90 },
+                "facing=north,color=cyan,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_cyan" },
+                "facing=south,color=cyan,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_cyan", "y": 180 },
+                "facing=west,color=cyan,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_cyan", "y": 270 },
+                "facing=east,color=cyan,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_cyan", "y": 90 },
+                "facing=north,color=cyan,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_cyan_opened" },
+                "facing=south,color=cyan,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_cyan_opened", "y": 180 },
+                "facing=west,color=cyan,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_cyan_opened", "y": 270 },
+                "facing=east,color=cyan,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_cyan_opened", "y": 90 },
+                "facing=north,color=cyan,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_cyan_opened" },
+                "facing=south,color=cyan,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_cyan_opened", "y": 180 },
+                "facing=west,color=cyan,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_cyan_opened", "y": 270 },
+                "facing=east,color=cyan,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_cyan_opened", "y": 90 },
+                "facing=north,color=cyan,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_cyan_opened" },
+                "facing=south,color=cyan,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_cyan_opened", "y": 180 },
+                "facing=west,color=cyan,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_cyan_opened", "y": 270 },
+                "facing=east,color=cyan,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_cyan_opened", "y": 90 },
+                "facing=north,color=cyan,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_cyan_opened" },
+                "facing=south,color=cyan,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_cyan_opened", "y": 180 },
+                "facing=west,color=cyan,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_cyan_opened", "y": 270 },
+                "facing=east,color=cyan,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_cyan_opened", "y": 90 },
+                "facing=north,color=cyan,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=cyan,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=cyan,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=cyan,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=cyan,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=cyan,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=cyan,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=cyan,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=cyan,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=cyan,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=cyan,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=cyan,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=cyan,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=cyan,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=cyan,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=cyan,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=light_blue,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=light_blue,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=light_blue,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=light_blue,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=light_blue,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=light_blue,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=light_blue,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=light_blue,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=light_blue,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=light_blue,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=light_blue,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=light_blue,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=light_blue,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=light_blue,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=light_blue,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=light_blue,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=light_blue,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_blue" },
+                "facing=south,color=light_blue,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_blue", "y": 180 },
+                "facing=west,color=light_blue,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_blue", "y": 270 },
+                "facing=east,color=light_blue,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_blue", "y": 90 },
+                "facing=north,color=light_blue,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_blue" },
+                "facing=south,color=light_blue,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_blue", "y": 180 },
+                "facing=west,color=light_blue,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_blue", "y": 270 },
+                "facing=east,color=light_blue,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_blue", "y": 90 },
+                "facing=north,color=light_blue,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_blue" },
+                "facing=south,color=light_blue,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_blue", "y": 180 },
+                "facing=west,color=light_blue,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_blue", "y": 270 },
+                "facing=east,color=light_blue,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_blue", "y": 90 },
+                "facing=north,color=light_blue,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_blue" },
+                "facing=south,color=light_blue,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_blue", "y": 180 },
+                "facing=west,color=light_blue,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_blue", "y": 270 },
+                "facing=east,color=light_blue,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_blue", "y": 90 },
+                "facing=north,color=light_blue,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_blue_opened" },
+                "facing=south,color=light_blue,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_blue_opened", "y": 180 },
+                "facing=west,color=light_blue,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_blue_opened", "y": 270 },
+                "facing=east,color=light_blue,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_light_blue_opened", "y": 90 },
+                "facing=north,color=light_blue,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_blue_opened" },
+                "facing=south,color=light_blue,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_blue_opened", "y": 180 },
+                "facing=west,color=light_blue,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_blue_opened", "y": 270 },
+                "facing=east,color=light_blue,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_light_blue_opened", "y": 90 },
+                "facing=north,color=light_blue,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_blue_opened" },
+                "facing=south,color=light_blue,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_blue_opened", "y": 180 },
+                "facing=west,color=light_blue,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_blue_opened", "y": 270 },
+                "facing=east,color=light_blue,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_light_blue_opened", "y": 90 },
+                "facing=north,color=light_blue,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_blue_opened" },
+                "facing=south,color=light_blue,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_blue_opened", "y": 180 },
+                "facing=west,color=light_blue,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_blue_opened", "y": 270 },
+                "facing=east,color=light_blue,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_light_blue_opened", "y": 90 },
+                "facing=north,color=light_blue,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=light_blue,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=light_blue,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=light_blue,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=light_blue,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=light_blue,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=light_blue,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=light_blue,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=light_blue,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=light_blue,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=light_blue,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=light_blue,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=light_blue,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=light_blue,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=light_blue,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=light_blue,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=green,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=green,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=green,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=green,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=green,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=green,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=green,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=green,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=green,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=green,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=green,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=green,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=green,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=green,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=green,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=green,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=green,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_green" },
+                "facing=south,color=green,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_green", "y": 180 },
+                "facing=west,color=green,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_green", "y": 270 },
+                "facing=east,color=green,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_green", "y": 90 },
+                "facing=north,color=green,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_green" },
+                "facing=south,color=green,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_green", "y": 180 },
+                "facing=west,color=green,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_green", "y": 270 },
+                "facing=east,color=green,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_green", "y": 90 },
+                "facing=north,color=green,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_green" },
+                "facing=south,color=green,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_green", "y": 180 },
+                "facing=west,color=green,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_green", "y": 270 },
+                "facing=east,color=green,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_green", "y": 90 },
+                "facing=north,color=green,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_green" },
+                "facing=south,color=green,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_green", "y": 180 },
+                "facing=west,color=green,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_green", "y": 270 },
+                "facing=east,color=green,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_green", "y": 90 },
+                "facing=north,color=green,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_green_opened" },
+                "facing=south,color=green,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_green_opened", "y": 180 },
+                "facing=west,color=green,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_green_opened", "y": 270 },
+                "facing=east,color=green,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_green_opened", "y": 90 },
+                "facing=north,color=green,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_green_opened" },
+                "facing=south,color=green,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_green_opened", "y": 180 },
+                "facing=west,color=green,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_green_opened", "y": 270 },
+                "facing=east,color=green,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_green_opened", "y": 90 },
+                "facing=north,color=green,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_green_opened" },
+                "facing=south,color=green,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_green_opened", "y": 180 },
+                "facing=west,color=green,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_green_opened", "y": 270 },
+                "facing=east,color=green,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_green_opened", "y": 90 },
+                "facing=north,color=green,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_green_opened" },
+                "facing=south,color=green,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_green_opened", "y": 180 },
+                "facing=west,color=green,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_green_opened", "y": 270 },
+                "facing=east,color=green,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_green_opened", "y": 90 },
+                "facing=north,color=green,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=green,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=green,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=green,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=green,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=green,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=green,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=green,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=green,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=green,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=green,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=green,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=green,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=green,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=green,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=green,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                
+                "facing=north,color=lime,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=lime,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=lime,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=lime,variant=normal,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=lime,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=lime,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=lime,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=lime,variant=left,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=lime,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=lime,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=lime,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=lime,variant=right,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=lime,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=lime,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=lime,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=lime,variant=center,dressed=false,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 },
+                "facing=north,color=lime,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_lime" },
+                "facing=south,color=lime,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_lime", "y": 180 },
+                "facing=west,color=lime,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_lime", "y": 270 },
+                "facing=east,color=lime,variant=normal,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_lime", "y": 90 },
+                "facing=north,color=lime,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_lime" },
+                "facing=south,color=lime,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_lime", "y": 180 },
+                "facing=west,color=lime,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_lime", "y": 270 },
+                "facing=east,color=lime,variant=left,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_lime", "y": 90 },
+                "facing=north,color=lime,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_lime" },
+                "facing=south,color=lime,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_lime", "y": 180 },
+                "facing=west,color=lime,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_lime", "y": 270 },
+                "facing=east,color=lime,variant=right,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_lime", "y": 90 },
+                "facing=north,color=lime,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_lime" },
+                "facing=south,color=lime,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_lime", "y": 180 },
+                "facing=west,color=lime,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_lime", "y": 270 },
+                "facing=east,color=lime,variant=center,dressed=true,opened=false": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_lime", "y": 90 },
+                "facing=north,color=lime,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_lime_opened" },
+                "facing=south,color=lime,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_lime_opened", "y": 180 },
+                "facing=west,color=lime,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_lime_opened", "y": 270 },
+                "facing=east,color=lime,variant=normal,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_dressed_lime_opened", "y": 90 },
+                "facing=north,color=lime,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_lime_opened" },
+                "facing=south,color=lime,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_lime_opened", "y": 180 },
+                "facing=west,color=lime,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_lime_opened", "y": 270 },
+                "facing=east,color=lime,variant=left,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left_dressed_lime_opened", "y": 90 },
+                "facing=north,color=lime,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_lime_opened" },
+                "facing=south,color=lime,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_lime_opened", "y": 180 },
+                "facing=west,color=lime,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_lime_opened", "y": 270 },
+                "facing=east,color=lime,variant=right,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right_dressed_lime_opened", "y": 90 },
+                "facing=north,color=lime,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_lime_opened" },
+                "facing=south,color=lime,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_lime_opened", "y": 180 },
+                "facing=west,color=lime,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_lime_opened", "y": 270 },
+                "facing=east,color=lime,variant=center,dressed=true,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center_dressed_lime_opened", "y": 90 },
+                "facing=north,color=lime,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME" },
+                "facing=south,color=lime,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 180 },
+                "facing=west,color=lime,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 270 },
+                "facing=east,color=lime,variant=normal,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME", "y": 90 },
+                "facing=north,color=lime,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left" },
+                "facing=south,color=lime,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 180 },
+                "facing=west,color=lime,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 270 },
+                "facing=east,color=lime,variant=left,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_left", "y": 90 },
+                "facing=north,color=lime,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right" },
+                "facing=south,color=lime,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 180 },
+                "facing=west,color=lime,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 270 },
+                "facing=east,color=lime,variant=right,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_right", "y": 90 },
+                "facing=north,color=lime,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center" },
+                "facing=south,color=lime,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 180 },
+                "facing=west,color=lime,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 270 },
+                "facing=east,color=lime,variant=center,dressed=false,opened=true": { "model": "aestheticedges:block/curtain_rod_MATERIAL_NAME_center", "y": 90 }
+              }
+            }
+            """;
 }
