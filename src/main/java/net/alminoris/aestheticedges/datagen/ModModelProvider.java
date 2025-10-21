@@ -73,6 +73,34 @@ public class ModModelProvider extends FabricModelProvider
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "aestheticedges");
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_OUTER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_OUTER.get(name), name+"_planks", "aestheticedges");
         }
+
+        for(String name : BlockSetsHelper.WT_WOOD_NAMES)
+        {
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_MODEL_TEMPLATE, ModBlocks.BASEBOARDS.get(name), name+"_planks", "aestheticedges");
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "aestheticedges");
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_OUTER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_OUTER.get(name), name+"_planks", "aestheticedges");
+        }
+
+        for(String name : BlockSetsHelper.ST_WOOD_NAMES)
+        {
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_MODEL_TEMPLATE, ModBlocks.BASEBOARDS.get(name), name+"_planks", "aestheticedges");
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "aestheticedges");
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_OUTER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_OUTER.get(name), name+"_planks", "aestheticedges");
+        }
+
+        for(String name : BlockSetsHelper.MT_WOOD_NAMES)
+        {
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_MODEL_TEMPLATE, ModBlocks.BASEBOARDS.get(name), name+"_planks", "aestheticedges");
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "aestheticedges");
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_OUTER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_OUTER.get(name), name+"_planks", "aestheticedges");
+        }
+
+        for(String name : BlockSetsHelper.NSS_WOOD_NAMES)
+        {
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_MODEL_TEMPLATE, ModBlocks.BASEBOARDS.get(name), name+"_planks", "aestheticedges");
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "aestheticedges");
+            registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_OUTER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_OUTER.get(name), name+"_planks", "aestheticedges");
+        }
     }
 
     public final void registerEdge(BlockStateModelGenerator blockStateModelGenerator, String jsonContext, Block curbstone, String name, String modId)

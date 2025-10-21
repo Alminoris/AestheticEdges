@@ -94,5 +94,45 @@ public class ModRecipeProvider extends FabricRecipeProvider
             ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
                     Registries.BLOCK.getId(ModBlocks.BASEBOARDS_INNER.get(name)).getPath(), "2");
         }
+
+        for(String name : BlockSetsHelper.ST_WOOD_NAMES)
+        {
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS.get(name)).getPath(), "3");
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS_OUTER.get(name)).getPath(), "4");
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS_INNER.get(name)).getPath(), "2");
+        }
+
+        for(String name : BlockSetsHelper.MT_WOOD_NAMES)
+        {
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS.get(name)).getPath(), "3");
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS_OUTER.get(name)).getPath(), "4");
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS_INNER.get(name)).getPath(), "2");
+        }
+
+        for(String name : BlockSetsHelper.WT_WOOD_NAMES)
+        {
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS.get(name)).getPath(), "3");
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS_OUTER.get(name)).getPath(), "4");
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS_INNER.get(name)).getPath(), "2");
+        }
+
+        for(String name : BlockSetsHelper.NSS_WOOD_NAMES)
+        {
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS.get(name)).getPath(), "3");
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS_OUTER.get(name)).getPath(), "4");
+            ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.BASEBOARDS_INNER.get(name)).getPath(), "2");
+        }
     }
 }

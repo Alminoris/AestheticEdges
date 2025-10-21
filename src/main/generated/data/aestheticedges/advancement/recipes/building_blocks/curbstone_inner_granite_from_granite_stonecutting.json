@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:curbstone_inner_granite_from_granite_stonecutting"
+        "recipe": "aestheticedges:curbstone_inner_granite_from_granite_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:curbstone_inner_granite_from_granite_stonecutting"
+      "aestheticedges:curbstone_inner_granite_from_granite_stonecutting"
     ]
   }
 }

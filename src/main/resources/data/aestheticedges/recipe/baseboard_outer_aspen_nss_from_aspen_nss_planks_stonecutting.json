@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wildfields:aspen_nss_planks"
+  },
+  "result": {
+    "count": 4,
+    "id": "aestheticedges:baseboard_outer_aspen_nss"
+  }
+}

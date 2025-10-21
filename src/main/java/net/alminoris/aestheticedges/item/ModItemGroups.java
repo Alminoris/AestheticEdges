@@ -18,7 +18,7 @@ public class ModItemGroups
     public static final ItemGroup AEDGS_TAB = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(AestheticEdges.MOD_ID, "aedgstab"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.aedgstab"))
-                    .icon(() -> new ItemStack(Blocks.RED_CARPET)).entries((displayContext, entries) ->
+                    .icon(() -> new ItemStack(ModBlocks.CURBSTONES_OUTER.get("stone_bricks"))).entries((displayContext, entries) ->
                     {
                         for(String name : BlockSetsHelper.STONES)
                         {
@@ -83,6 +83,46 @@ public class ModItemGroups
                         }
 
                         if (FabricLoader.getInstance().isModLoaded("wildfields"))
+                        {
+                            for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+                            {
+                                entries.add(ModBlocks.BASEBOARDS.get(name));
+                                entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
+                                entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
+                            }
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("whisperleaftrees"))
+                        {
+                            for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+                            {
+                                entries.add(ModBlocks.BASEBOARDS.get(name));
+                                entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
+                                entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
+                            }
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("silverwoodtrees"))
+                        {
+                            for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+                            {
+                                entries.add(ModBlocks.BASEBOARDS.get(name));
+                                entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
+                                entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
+                            }
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("missingtrees"))
+                        {
+                            for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+                            {
+                                entries.add(ModBlocks.BASEBOARDS.get(name));
+                                entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
+                                entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
+                            }
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("natures_spirit"))
                         {
                             for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
                             {

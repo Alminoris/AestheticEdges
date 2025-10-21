@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:curbstone_high_inner_sandstone_from_sandstone_stonecutting"
+        "recipe": "aestheticedges:curbstone_high_inner_sandstone_from_sandstone_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:curbstone_high_inner_sandstone_from_sandstone_stonecutting"
+      "aestheticedges:curbstone_high_inner_sandstone_from_sandstone_stonecutting"
     ]
   }
 }

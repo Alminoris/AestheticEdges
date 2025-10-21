@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:simple_curb_stone_from_stone_stonecutting"
+        "recipe": "aestheticedges:simple_curb_stone_from_stone_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:simple_curb_stone_from_stone_stonecutting"
+      "aestheticedges:simple_curb_stone_from_stone_stonecutting"
     ]
   }
 }

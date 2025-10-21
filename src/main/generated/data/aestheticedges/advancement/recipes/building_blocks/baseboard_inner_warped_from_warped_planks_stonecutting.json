@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:baseboard_inner_warped_from_warped_planks_stonecutting"
+        "recipe": "aestheticedges:baseboard_inner_warped_from_warped_planks_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:baseboard_inner_warped_from_warped_planks_stonecutting"
+      "aestheticedges:baseboard_inner_warped_from_warped_planks_stonecutting"
     ]
   }
 }
