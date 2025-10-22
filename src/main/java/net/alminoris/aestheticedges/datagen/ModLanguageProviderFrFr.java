@@ -23,6 +23,7 @@ public class ModLanguageProviderFrFr extends FabricLanguageProvider
         woodEdges.put("baseboard_", "Plinthe en %s");
         woodEdges.put("baseboard_inner_", "Angle intérieur de la plinthe en %s");
         woodEdges.put("baseboard_outer_", "Angle extérieur de la plinthe en %s");
+        woodEdges.put("curtain_rod_", "Tringle à rideaux en %s");
 
         Map<String, String> stoneEdges = new LinkedHashMap<>();
         stoneEdges.put("curbstone_", "Bordure en %s");
@@ -32,6 +33,9 @@ public class ModLanguageProviderFrFr extends FabricLanguageProvider
         stoneEdges.put("curbstone_high_inner_", "Angle intérieur de la bordure haute en %s");
         stoneEdges.put("curbstone_high_outer_", "Angle extérieur de la bordure haute en %s");
         stoneEdges.put("simple_curb_", "Bordure simple en %s");
+        stoneEdges.put("simple_curb_inner_", "Angle intérieur de la bordure simple en %s");
+        stoneEdges.put("simple_curb_outer_", "Angle extérieur de la bordure simple en %s");
+        stoneEdges.put("curtain_rod_", "Tringle à rideaux en %s");
 
         Map<String, String> woodMaterials = new LinkedHashMap<>();
         woodMaterials.put("bald_cypress", "cyprès chauve");
@@ -143,6 +147,39 @@ public class ModLanguageProviderFrFr extends FabricLanguageProvider
                 translationBuilder.add(key, value);
             }
         }
+
+        Map<String, String> colorItems = new LinkedHashMap<>();
+        colorItems.put("curtain_", "Rideau");
+
+        Map<String, String> colors = new LinkedHashMap<>();
+        colors.put("black", "%s noir");
+        colors.put("brown", "%s brun");
+        colors.put("gray", "%s gris");
+        colors.put("light_gray", "%s gris clair");
+        colors.put("white", "%s blanc");
+        colors.put("red", "%s rouge");
+        colors.put("orange", "%s orange");
+        colors.put("yellow", "%s jaune");
+        colors.put("blue", "%s bleu");
+        colors.put("cyan", "%s cyan");
+        colors.put("light_blue", "%s bleu clair");
+        colors.put("purple", "%s violet");
+        colors.put("magenta", "%s magenta");
+        colors.put("pink", "%s rose");
+        colors.put("green", "%s vert");
+        colors.put("lime", "%s vert clair");
+
+        for (Map.Entry<String, String> type : colorItems.entrySet())
+        {
+            for (Map.Entry<String, String> mat : colors.entrySet())
+            {
+                String key = "item." + AestheticEdges.MOD_ID + "." + type.getKey() + mat.getKey();
+                String value = String.format(type.getValue(), mat.getValue());
+                translationBuilder.add(key, value);
+            }
+        }
+
+        translationBuilder.add("item." + AestheticEdges.MOD_ID + ".curtain_remover", "Démonte-rideaux");
 
         translationBuilder.add("itemgroup.aedgstab","Aesthetic Edges");
     }

@@ -72,4 +72,12 @@ public class BlockSetsHelper
         System.arraycopy(EXTRA_STONES_WF, 0, combinedStones, STONES.length, EXTRA_STONES_WF.length);
         return combinedStones;
     }
+
+    public static String[] getWoodsNStones()
+    {
+        String[] combined = new String[getWoods().length + getStones().length];
+        System.arraycopy(getWoods(), 0, combined, 0, getWoods().length);
+        System.arraycopy(getStones(), 0, combined, getWoods().length, getStones().length);
+        return combined;
+    }
 }

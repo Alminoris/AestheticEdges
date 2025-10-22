@@ -23,6 +23,7 @@ public class ModLanguageProviderUkUa extends FabricLanguageProvider
         woodEdges.put("baseboard_", "Плінтус з %s");
         woodEdges.put("baseboard_inner_", "Внутрішній кут плінтусу з %s");
         woodEdges.put("baseboard_outer_", "Зовнішній кут плінтусу з %s");
+        woodEdges.put("curtain_rod_", "Карниз для штор з %s");
 
         Map<String, String> stoneEdges = new LinkedHashMap<>();
         stoneEdges.put("curbstone_", "Бордюр з %s");
@@ -32,6 +33,9 @@ public class ModLanguageProviderUkUa extends FabricLanguageProvider
         stoneEdges.put("curbstone_high_inner_", "Внутрішній кут високого бордюру з %s");
         stoneEdges.put("curbstone_high_outer_", "Зовнішній кут високого бордюру з %s");
         stoneEdges.put("simple_curb_", "Простий бордюр з %s");
+        stoneEdges.put("simple_curb_inner_", "Внутрішній кут простого бордюру з %s");
+        stoneEdges.put("simple_curb_outer_", "Зовнішній кут простого бордюру з %s");
+        stoneEdges.put("curtain_rod_", "Карниз для штор з %s");
 
         Map<String, String> stoneMaterials = new LinkedHashMap<>();
         stoneMaterials.put("stone", "каменю");
@@ -143,7 +147,40 @@ public class ModLanguageProviderUkUa extends FabricLanguageProvider
                 translationBuilder.add(key, value);
             }
         }
-        
+
+        Map<String, String> colorItems = new LinkedHashMap<>();
+        colorItems.put("curtain_", "завіса");
+
+        Map<String, String> colors = new LinkedHashMap<>();
+        colors.put("black", "Чорна %s");
+        colors.put("brown", "Коричнева %s");
+        colors.put("gray", "Сіра %s");
+        colors.put("light_gray", "Світло-сіра %s");
+        colors.put("white", "біла %s");
+        colors.put("red", "Червона %s");
+        colors.put("orange", "Оранжева %s");
+        colors.put("yellow", "Жовта %s");
+        colors.put("blue", "Синя %s");
+        colors.put("cyan", "Бірюзова %s");
+        colors.put("light_blue", "Блакитна %s");
+        colors.put("purple", "Фіолетова %s");
+        colors.put("magenta", "Пурпурна %s");
+        colors.put("pink", "Рожева %s");
+        colors.put("green", "Зелена %s");
+        colors.put("lime", "Лаймова %s");
+
+        for (Map.Entry<String, String> type : colorItems.entrySet())
+        {
+            for (Map.Entry<String, String> mat : colors.entrySet())
+            {
+                String key = "item." + AestheticEdges.MOD_ID + "." + type.getKey() + mat.getKey();
+                String value = String.format(mat.getValue(), type.getValue());
+                translationBuilder.add(key, value);
+            }
+        }
+
+        translationBuilder.add("item." + AestheticEdges.MOD_ID + ".curtain_remover","Знімач штор");
+
         translationBuilder.add("itemgroup.aedgstab","Aesthetic Edges");
     }
 }

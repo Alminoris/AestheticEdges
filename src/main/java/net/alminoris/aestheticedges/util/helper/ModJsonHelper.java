@@ -33,6 +33,32 @@ public class ModJsonHelper
         }
     }
 
+    public static void createCurtainRodBlockModel(String jsonContent, String name, String textureName,
+                                                  String color, String variant, boolean isDressed, boolean isOpened)
+    {
+        String projectPath = System.getProperty("user.dir");
+
+        String filePath = projectPath.replace("build\\datagen", "src\\main\\resources") + "/assets/"+ AestheticEdges.MOD_ID+"/models/block/";
+
+        File directory = new File(filePath);
+        if (!directory.exists())
+            directory.mkdirs();
+
+        String fileName = name + ((variant.equals("normal")) ? "" : "_" + variant) + (isDressed ? "_reclined" : "") + "_" + color + (isOpened ? "_reclined" : "")  + ".json";
+        File modelFile = new File(directory, fileName);
+
+        jsonContent = jsonContent.replace("NAME", textureName);
+
+        try (FileWriter writer = new FileWriter(modelFile))
+        {
+            writer.write(jsonContent);
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+    }
+
     public static void createStonecuttingRecipe(String ingredientName, String outputName, String count)
     {
         String projectPath = System.getProperty("user.dir");
@@ -59,7 +85,7 @@ public class ModJsonHelper
         }
     }
 
-    public static void createYAxisRotatedBlockState(String name)
+    public static void createBlockstate(String name, String jsonTemplate)
     {
         String projectPath = System.getProperty("user.dir");
 
@@ -72,7 +98,7 @@ public class ModJsonHelper
         String fileName = name + ".json";
         File modelFile = new File(directory, fileName);
 
-        String jsonContent = ModJsonTemplates.YAXIS_ROTATED_BLOCKSTATE_TEMPLATE.replace("NAME", name);
+        String jsonContent = jsonTemplate.replace("NAME", name);
 
         try (FileWriter writer = new FileWriter(modelFile))
         {
@@ -81,6 +107,61 @@ public class ModJsonHelper
         catch (IOException e)
         {
             e.printStackTrace();
+        }
+    }
+
+    public static void createCurtainRodBlockModel(String name, String materialName, String colorName, String variantName, boolean isDressed, boolean isOpened)
+    {
+        switch (variantName)
+        {
+            case "normal":
+                if (isDressed)
+                    if (isOpened)
+                        createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD_DRESSED_OPENED.replace("COLOR_NAME", colorName), name, materialName,
+                                colorName, variantName, true, true);
+                    else
+                        createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD_DRESSED.replace("COLOR_NAME", colorName), name, materialName,
+                                colorName, variantName, true, false);
+                else
+                    createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD, name, materialName,
+                            colorName, variantName, false, false);
+                break;
+            case "left":
+                if (isDressed)
+                    if (isOpened)
+                        createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD_LEFT_DRESSED_OPENED.replace("COLOR_NAME", colorName), name, materialName,
+                                colorName, variantName, true, true);
+                    else
+                        createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD_LEFT_DRESSED.replace("COLOR_NAME", colorName), name, materialName,
+                                colorName, variantName, true, false);
+                else
+                    createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD_LEFT, name, materialName,
+                            colorName, variantName, false, false);
+                break;
+            case "right":
+                if (isDressed)
+                    if (isOpened)
+                        createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD_RIGHT_DRESSED_OPENED.replace("COLOR_NAME", colorName), name, materialName,
+                                colorName, variantName, true, true);
+                    else
+                        createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD_RIGHT_DRESSED.replace("COLOR_NAME", colorName), name, materialName,
+                                colorName, variantName, true, false);
+                else
+                    createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD_RIGHT, name, materialName,
+                            colorName, variantName, false, false);
+                break;
+            case "center":
+                if (isDressed)
+                    if (isOpened)
+                        createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD_CENTER_DRESSED_OPENED.replace("COLOR_NAME", colorName), name, materialName,
+                                colorName, variantName, true, true);
+                    else
+                        createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD_CENTER_DRESSED.replace("COLOR_NAME", colorName), name, materialName,
+                                colorName, variantName, true, false);
+                else
+                    createCurtainRodBlockModel(ModJsonTemplates.CURTAIN_ROD_CENTER, name, materialName,
+                            colorName, variantName, false, false);
+                break;
         }
     }
 }

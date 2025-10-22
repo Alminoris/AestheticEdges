@@ -56,6 +56,10 @@ public class ModItemGroups
                             entries.add(ModBlocks.SIMPLE_CURBS_INNER.get(name));
                             entries.add(ModBlocks.SIMPLE_CURBS_OUTER.get(name));
                         }
+                        for(String name : BlockSetsHelper.STONES)
+                        {
+                            entries.add(ModBlocks.CURTAIN_RODS.get(name));
+                        }
                         if (FabricLoader.getInstance().isModLoaded("wildfields"))
                         {
                             for(String name : BlockSetsHelper.EXTRA_STONES_WF)
@@ -64,12 +68,21 @@ public class ModItemGroups
                                 entries.add(ModBlocks.SIMPLE_CURBS_INNER.get(name));
                                 entries.add(ModBlocks.SIMPLE_CURBS_OUTER.get(name));
                             }
+                            for(String name : BlockSetsHelper.EXTRA_STONES_WF)
+                            {
+                                entries.add(ModBlocks.CURTAIN_RODS.get(name));
+                            }
                         }
                         for(String name : BlockSetsHelper.WOODS)
                         {
                             entries.add(ModBlocks.BASEBOARDS.get(name));
                             entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
                             entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
+                        }
+
+                        for(String name : BlockSetsHelper.WOODS)
+                        {
+                            entries.add(ModBlocks.CURTAIN_RODS.get(name));
                         }
 
                         if (FabricLoader.getInstance().isModLoaded("arborealnature"))
@@ -80,6 +93,11 @@ public class ModItemGroups
                                 entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
                                 entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
                             }
+
+                            for(String name : BlockSetsHelper.EXTRA_WOODS_AN)
+                            {
+                                entries.add(ModBlocks.CURTAIN_RODS.get(name));
+                            }
                         }
 
                         if (FabricLoader.getInstance().isModLoaded("wildfields"))
@@ -90,46 +108,76 @@ public class ModItemGroups
                                 entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
                                 entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
                             }
+
+                            for(String name : BlockSetsHelper.EXTRA_STONES_WF)
+                            {
+                                entries.add(ModBlocks.CURTAIN_RODS.get(name));
+                            }
                         }
 
                         if (FabricLoader.getInstance().isModLoaded("whisperleaftrees"))
                         {
-                            for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+                            for(String name : BlockSetsHelper.WT_WOOD_NAMES)
                             {
                                 entries.add(ModBlocks.BASEBOARDS.get(name));
                                 entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
                                 entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
+                            }
+
+                            for(String name : BlockSetsHelper.WT_WOOD_NAMES)
+                            {
+                                entries.add(ModBlocks.CURTAIN_RODS.get(name));
                             }
                         }
 
                         if (FabricLoader.getInstance().isModLoaded("silverwoodtrees"))
                         {
-                            for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+                            for(String name : BlockSetsHelper.ST_WOOD_NAMES)
                             {
                                 entries.add(ModBlocks.BASEBOARDS.get(name));
                                 entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
                                 entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
+                            }
+
+                            for(String name : BlockSetsHelper.ST_WOOD_NAMES)
+                            {
+                                entries.add(ModBlocks.CURTAIN_RODS.get(name));
                             }
                         }
 
                         if (FabricLoader.getInstance().isModLoaded("missingtrees"))
                         {
-                            for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+                            for(String name : BlockSetsHelper.MT_WOOD_NAMES)
                             {
                                 entries.add(ModBlocks.BASEBOARDS.get(name));
                                 entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
                                 entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
+                            }
+
+                            for(String name : BlockSetsHelper.MT_WOOD_NAMES)
+                            {
+                                entries.add(ModBlocks.CURTAIN_RODS.get(name));
                             }
                         }
 
                         if (FabricLoader.getInstance().isModLoaded("natures_spirit"))
                         {
-                            for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+                            for(String name : BlockSetsHelper.NSS_WOOD_NAMES)
                             {
                                 entries.add(ModBlocks.BASEBOARDS.get(name));
                                 entries.add(ModBlocks.BASEBOARDS_INNER.get(name));
                                 entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
                             }
+
+                            for(String name : BlockSetsHelper.NSS_WOOD_NAMES)
+                            {
+                                entries.add(ModBlocks.CURTAIN_RODS.get(name));
+                            }
+                        }
+
+                        for (String name : BlockSetsHelper.COLORS)
+                        {
+                            entries.add(ModItems.CURTAINS.get(name));
                         }
                     }).build());
 

@@ -53,6 +53,30 @@ public class ModLanguageProviderEnUs extends FabricLanguageProvider
                     translationBuilder.add("block." + AestheticEdges.MOD_ID + "." + path, displayName);
                 });
 
+        Registries.ITEM.stream()
+                .filter(item ->
+                {
+                    Identifier id = Registries.ITEM.getId(item);
+                    return AestheticEdges.MOD_ID.equals(id.getNamespace());
+                })
+                .forEach(item ->
+                {
+                    Identifier id = Registries.ITEM.getId(item);
+                    String path = id.getPath();
+
+                    String pathNew = path;
+
+                    pathNew = movePrefix(path, BlockSetsHelper.COLORS);
+
+                    String[] parts = pathNew.split("_");
+
+                    String displayName = Arrays.stream(parts)
+                            .map(s -> s.substring(0, 1).toUpperCase() + s.substring(1))
+                            .collect(Collectors.joining(" "));
+
+                    translationBuilder.add("item." + AestheticEdges.MOD_ID + "." + path, displayName);
+                });
+
         translationBuilder.add("itemgroup.aedgstab","Aesthetic Edges");
     }
 

@@ -23,6 +23,7 @@ public class ModLanguageProviderDeDe extends FabricLanguageProvider
         woodEdges.put("baseboard_", "Sockelleiste aus %s");
         woodEdges.put("baseboard_inner_", "Innenecke der Sockelleiste aus %s");
         woodEdges.put("baseboard_outer_", "Außenecke der Sockelleiste aus %s");
+        woodEdges.put("curtain_rod_", "Vorhangstange aus %s");
 
         Map<String, String> stoneEdges = new LinkedHashMap<>();
         stoneEdges.put("curbstone_", "Bordstein aus %s");
@@ -32,6 +33,9 @@ public class ModLanguageProviderDeDe extends FabricLanguageProvider
         stoneEdges.put("curbstone_high_inner_", "Innenecke des hohen Bordsteins aus %s");
         stoneEdges.put("curbstone_high_outer_", "Außenecke des hohen Bordsteins aus %s");
         stoneEdges.put("simple_curb_", "Einfacher Bordstein aus %s");
+        stoneEdges.put("simple_curb_inner_", "Innenecke des einfachen Bordstein aus %s");
+        stoneEdges.put("simple_curb_outer_", "Außenecke des einfachen Bordstein aus %s");
+        stoneEdges.put("curtain_rod_", "Vorhangstange aus %s");
 
         Map<String, String> woodMaterials = new LinkedHashMap<>();
         woodMaterials.put("bald_cypress", "Sumpfzypresse");
@@ -143,6 +147,39 @@ public class ModLanguageProviderDeDe extends FabricLanguageProvider
                 translationBuilder.add(key, value);
             }
         }
+
+        Map<String, String> colorItems = new LinkedHashMap<>();
+        colorItems.put("curtain_", "Vorhang");
+
+        Map<String, String> colors = new LinkedHashMap<>();
+        colors.put("black", "Schwarzer %s");
+        colors.put("brown", "Brauner %s");
+        colors.put("gray", "Grauer %s");
+        colors.put("light_gray", "Hellgrauer %s");
+        colors.put("white", "Weißer %s");
+        colors.put("red", "Roter %s");
+        colors.put("orange", "Oranger %s");
+        colors.put("yellow", "Gelber %s");
+        colors.put("blue", "Blauer %s");
+        colors.put("cyan", "Türkiser %s");
+        colors.put("light_blue", "Hellblauer %s");
+        colors.put("purple", "Violetter %s");
+        colors.put("magenta", "Magenta %s");
+        colors.put("pink", "Rosa %s");
+        colors.put("green", "Grüner %s");
+        colors.put("lime", "Hellgrüner %s");
+
+        for (Map.Entry<String, String> type : colorItems.entrySet())
+        {
+            for (Map.Entry<String, String> mat : colors.entrySet())
+            {
+                String key = "item." + AestheticEdges.MOD_ID + "." + type.getKey() + mat.getKey();
+                String value = String.format(mat.getValue(), type.getValue());
+                translationBuilder.add(key, value);
+            }
+        }
+
+        translationBuilder.add("item." + AestheticEdges.MOD_ID + ".curtain_remover", "Vorhangentferner");
 
         translationBuilder.add("itemgroup.aedgstab","Aesthetic Edges");
     }
