@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "wildfields:apple_planks"
+    "item": "missingtrees:apple_planks"
   },
   "result": {
     "count": 2,

@@ -134,7 +134,7 @@ public class CurtainRodBlock extends YAxisRotatedBlock
             return ActionResult.SUCCESS;
         }
 
-        if (player.getStackInHand(Hand.MAIN_HAND).isEmpty() && currentDressed)
+        if (stack.isEmpty() && currentDressed)
         {
             if (!world.isClient)
             {
@@ -156,7 +156,7 @@ public class CurtainRodBlock extends YAxisRotatedBlock
             return ActionResult.SUCCESS;
         }
 
-        if (stack.getItem() == ModItems.CURTAIN_REMOVER)
+        if (stack.isOf(ModItems.CURTAIN_REMOVER))
         {
             if (!world.isClient)
             {
@@ -166,8 +166,8 @@ public class CurtainRodBlock extends YAxisRotatedBlock
                 world.setBlockState(pos, state
                         .with(FACING, currentFacing)
                         .with(VARIANT, currentVariant)
-                        .with(DRESSED, currentDressed)
-                        .with(OPENED, false)
+                        .with(DRESSED, false)
+                        .with(OPENED, currentOpened)
                         .with(COLOR, currentColor));
 
                 if (stack.getDamage() < stack.getMaxDamage() - 1)

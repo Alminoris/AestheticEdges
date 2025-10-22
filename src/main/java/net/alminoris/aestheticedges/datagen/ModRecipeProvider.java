@@ -27,6 +27,16 @@ public class ModRecipeProvider extends FabricRecipeProvider
     @Override
     public void generate(RecipeExporter recipeExporter)
     {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CURTAIN_REMOVER)
+                .pattern("# #")
+                .pattern(" / ")
+                .pattern(" / ")
+                .input('#', Items.IRON_INGOT)
+                .input('/', Items.STICK)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(recipeExporter);
+
         for(String name : BlockSetsHelper.COLORS)
         {
             Block block = Registries.BLOCK.get(Identifier.ofVanilla(name+"_wool"));

@@ -132,13 +132,13 @@ public class ModBlocks
         for(String name : BlockSetsHelper.getWoods())
         {
             put(name, registerBlock("curtain_rod_"+name, new CurtainRodBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD),
-                    new BlockShape(0, 14, 13, 16, 17, 16))));
+                    new BlockShape(0, 14, 0, 16, 17, 3))));
         }
 
         for(String name : BlockSetsHelper.getStones())
         {
             put(name, registerBlock("curtain_rod_"+name, new CurtainRodBlock(AbstractBlock.Settings.copy(Blocks.STONE),
-                    new BlockShape(0, 14, 13, 16, 17, 16))));
+                    new BlockShape(0, 14, 0, 16, 17, 3))));
         }
     }};
 

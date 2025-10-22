@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "aestheticedges:block/baseboard_palo_verde_nss" },
-    "facing=south": { "model": "aestheticedges:block/baseboard_palo_verde_nss", "y": 180 },
-    "facing=west": { "model": "aestheticedges:block/baseboard_palo_verde_nss", "y": 270 },
-    "facing=east": { "model": "aestheticedges:block/baseboard_palo_verde_nss", "y": 90 }
-  }
-}

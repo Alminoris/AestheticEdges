@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "wildfields:silverberry_planks"
+    "item": "silverwoodtrees:silverberry_planks"
   },
   "result": {
     "count": 2,

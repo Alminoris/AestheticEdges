@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "wildfields:aspen_planks"
+    "item": "whisperleaftrees:aspen_planks"
   },
   "result": {
     "count": 4,

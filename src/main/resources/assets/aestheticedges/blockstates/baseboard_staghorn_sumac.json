@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "aestheticedges:block/baseboard_staghorn_sumac" },
-    "facing=south": { "model": "aestheticedges:block/baseboard_staghorn_sumac", "y": 180 },
-    "facing=west": { "model": "aestheticedges:block/baseboard_staghorn_sumac", "y": 270 },
-    "facing=east": { "model": "aestheticedges:block/baseboard_staghorn_sumac", "y": 90 }
-  }
-}

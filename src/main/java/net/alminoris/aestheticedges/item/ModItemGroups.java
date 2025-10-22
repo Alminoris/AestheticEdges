@@ -109,7 +109,7 @@ public class ModItemGroups
                                 entries.add(ModBlocks.BASEBOARDS_OUTER.get(name));
                             }
 
-                            for(String name : BlockSetsHelper.EXTRA_STONES_WF)
+                            for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
                             {
                                 entries.add(ModBlocks.CURTAIN_RODS.get(name));
                             }
@@ -174,6 +174,8 @@ public class ModItemGroups
                                 entries.add(ModBlocks.CURTAIN_RODS.get(name));
                             }
                         }
+
+                        entries.add(ModItems.CURTAIN_REMOVER);
 
                         for (String name : BlockSetsHelper.COLORS)
                         {

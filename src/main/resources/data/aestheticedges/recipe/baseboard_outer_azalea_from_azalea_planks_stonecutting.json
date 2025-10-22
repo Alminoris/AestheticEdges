@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "wildfields:azalea_planks"
+    "item": "missingtrees:azalea_planks"
   },
   "result": {
     "count": 4,

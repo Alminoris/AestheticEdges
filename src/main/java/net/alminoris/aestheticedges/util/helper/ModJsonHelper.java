@@ -44,7 +44,7 @@ public class ModJsonHelper
         if (!directory.exists())
             directory.mkdirs();
 
-        String fileName = name + ((variant.equals("normal")) ? "" : "_" + variant) + (isDressed ? "_reclined" : "") + "_" + color + (isOpened ? "_reclined" : "")  + ".json";
+        String fileName = name + ((variant.equals("normal")) ? "" : "_" + variant) + (isDressed ? "_dressed" : "") + (isDressed ? "_" + color : "") + (isOpened ? "_opened" : "")  + ".json";
         File modelFile = new File(directory, fileName);
 
         jsonContent = jsonContent.replace("NAME", textureName);
@@ -85,7 +85,7 @@ public class ModJsonHelper
         }
     }
 
-    public static void createBlockstate(String name, String jsonTemplate)
+    public static void createBlockstate(String name, String accurateName, String jsonTemplate)
     {
         String projectPath = System.getProperty("user.dir");
 
@@ -98,7 +98,7 @@ public class ModJsonHelper
         String fileName = name + ".json";
         File modelFile = new File(directory, fileName);
 
-        String jsonContent = jsonTemplate.replace("NAME", name);
+        String jsonContent = jsonTemplate.replace("NAME", accurateName);
 
         try (FileWriter writer = new FileWriter(modelFile))
         {

@@ -15,6 +15,10 @@ import net.minecraft.data.client.Models;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 import static net.alminoris.aestheticedges.util.helper.BlockSetsHelper.COLORS;
 
 public class ModModelProvider extends FabricModelProvider
@@ -29,7 +33,7 @@ public class ModModelProvider extends FabricModelProvider
     {
         for(String name : BlockSetsHelper.STONES)
         {
-            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "minecraft");
+            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, name, "minecraft");
 
             registerEdge(blockStateModelGenerator, ModJsonTemplates.CURBSTONE_MODEL_TEMPLATE, ModBlocks.CURBSTONES.get(name), name, "minecraft");
             registerEdge(blockStateModelGenerator, ModJsonTemplates.CURBSTONE_INNER_MODEL_TEMPLATE, ModBlocks.CURBSTONES_INNER.get(name), name, "minecraft");
@@ -46,7 +50,7 @@ public class ModModelProvider extends FabricModelProvider
 
         for(String name : BlockSetsHelper.EXTRA_STONES_WF)
         {
-            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "aestheticedges");
+            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, name, "aestheticedges");
 
             registerEdge(blockStateModelGenerator, ModJsonTemplates.CURBSTONE_MODEL_TEMPLATE, ModBlocks.CURBSTONES.get(name), name, "aestheticedges");
             registerEdge(blockStateModelGenerator, ModJsonTemplates.CURBSTONE_INNER_MODEL_TEMPLATE, ModBlocks.CURBSTONES_INNER.get(name), name, "aestheticedges");
@@ -65,7 +69,7 @@ public class ModModelProvider extends FabricModelProvider
         {
             String logName = (name.equals("crimson") || name.equals("warped")) ? "stem" : (name.equals("bamboo") ? "block" : "log");
 
-            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), "stripped_"+name+"_"+logName, "minecraft");
+            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "stripped_"+name+"_"+logName, "minecraft");
 
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_MODEL_TEMPLATE, ModBlocks.BASEBOARDS.get(name), name+"_planks", "minecraft");
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "minecraft");
@@ -74,7 +78,7 @@ public class ModModelProvider extends FabricModelProvider
 
         for(String name : BlockSetsHelper.EXTRA_WOODS_AN)
         {
-            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "aestheticedges");
+            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "stripped_"+name+"_log", "aestheticedges");
 
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_MODEL_TEMPLATE, ModBlocks.BASEBOARDS.get(name), name+"_planks", "aestheticedges");
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "aestheticedges");
@@ -83,7 +87,7 @@ public class ModModelProvider extends FabricModelProvider
 
         for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
         {
-            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "aestheticedges");
+            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "stripped_"+name+"_log", "aestheticedges");
 
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_MODEL_TEMPLATE, ModBlocks.BASEBOARDS.get(name), name+"_planks", "aestheticedges");
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "aestheticedges");
@@ -92,7 +96,7 @@ public class ModModelProvider extends FabricModelProvider
 
         for(String name : BlockSetsHelper.WT_WOOD_NAMES)
         {
-            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "aestheticedges");
+            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "stripped_"+name+"_log", "aestheticedges");
 
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_MODEL_TEMPLATE, ModBlocks.BASEBOARDS.get(name), name+"_planks", "aestheticedges");
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "aestheticedges");
@@ -101,7 +105,7 @@ public class ModModelProvider extends FabricModelProvider
 
         for(String name : BlockSetsHelper.ST_WOOD_NAMES)
         {
-            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "aestheticedges");
+            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "stripped_"+name+"_log", "aestheticedges");
 
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_MODEL_TEMPLATE, ModBlocks.BASEBOARDS.get(name), name+"_planks", "aestheticedges");
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "aestheticedges");
@@ -110,7 +114,7 @@ public class ModModelProvider extends FabricModelProvider
 
         for(String name : BlockSetsHelper.MT_WOOD_NAMES)
         {
-            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "aestheticedges");
+            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "stripped_"+name+"_log", "aestheticedges");
 
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_MODEL_TEMPLATE, ModBlocks.BASEBOARDS.get(name), name+"_planks", "aestheticedges");
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "aestheticedges");
@@ -119,7 +123,7 @@ public class ModModelProvider extends FabricModelProvider
 
         for(String name : BlockSetsHelper.NSS_WOOD_NAMES)
         {
-            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "aestheticedges");
+            registerCurtainRod(blockStateModelGenerator, ModBlocks.CURTAIN_RODS.get(name), name, "stripped_"+name+"_log", "aestheticedges");
 
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_MODEL_TEMPLATE, ModBlocks.BASEBOARDS.get(name), name+"_planks", "aestheticedges");
             registerEdge(blockStateModelGenerator, ModJsonTemplates.BASEBOARD_INNER_MODEL_TEMPLATE, ModBlocks.BASEBOARDS_INNER.get(name), name+"_planks", "aestheticedges");
@@ -127,7 +131,7 @@ public class ModModelProvider extends FabricModelProvider
         }
     }
 
-    public final void registerCurtainRod(BlockStateModelGenerator blockStateModelGenerator, Block curtainRod, String name, String modId)
+    public final void registerCurtainRod(BlockStateModelGenerator blockStateModelGenerator, Block curtainRod, String matName ,String name, String modId)
     {
         for (String colorName : COLORS)
         {
@@ -159,14 +163,19 @@ public class ModModelProvider extends FabricModelProvider
                     colorName, "center", true, true);
         }
 
-        ModJsonHelper.createBlockstate(Registries.BLOCK.getId(curtainRod).getPath(), ModJsonTemplates.CURTAIN_ROD_BLOCKSTATE);
+        String filePath = System.getProperty("user.dir").replace("build\\datagen",
+                "src\\main\\resources") + "/assets/"+ AestheticEdges.MOD_ID+"/blockstates/curtain_rod_template.json";
+        String s = "";
+        try { s = Files.readString(Paths.get(filePath)); } catch (IOException ignored) {}
+
+        ModJsonHelper.createBlockstate(Registries.BLOCK.getId(curtainRod).getPath(), matName, s);
         blockStateModelGenerator.registerParentedItemModel(curtainRod, Identifier.of(AestheticEdges.MOD_ID, "block/"+Registries.BLOCK.getId(curtainRod).getPath()));
     }
 
     public final void registerEdge(BlockStateModelGenerator blockStateModelGenerator, String jsonContext, Block curbstone, String name, String modId)
     {
         ModJsonHelper.createBlockModel(jsonContext, Registries.BLOCK.getId(curbstone).getPath(),modId+":block/"+name);
-        ModJsonHelper.createBlockstate(Registries.BLOCK.getId(curbstone).getPath(), ModJsonTemplates.YAXIS_ROTATED_BLOCKSTATE_TEMPLATE);
+        ModJsonHelper.createBlockstate(Registries.BLOCK.getId(curbstone).getPath(), Registries.BLOCK.getId(curbstone).getPath(), ModJsonTemplates.YAXIS_ROTATED_BLOCKSTATE_TEMPLATE);
         blockStateModelGenerator.registerParentedItemModel(curbstone, Identifier.of(AestheticEdges.MOD_ID, "block/"+Registries.BLOCK.getId(curbstone).getPath()));
     }
 
@@ -177,5 +186,6 @@ public class ModModelProvider extends FabricModelProvider
         {
             itemModelGenerator.register(ModItems.CURTAINS.get(name), Models.GENERATED);
         }
+        itemModelGenerator.register(ModItems.CURTAIN_REMOVER, Models.GENERATED);
     }
 }
