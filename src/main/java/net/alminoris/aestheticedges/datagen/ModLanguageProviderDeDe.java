@@ -181,6 +181,6 @@ public class ModLanguageProviderDeDe extends FabricLanguageProvider
 
         translationBuilder.add("item." + AestheticEdges.MOD_ID + ".curtain_remover", "Vorhangentferner");
 
-        translationBuilder.add("itemgroup.aedgstab","Aesthetic Edges");
+        translationBuilder.add("itemGroup.aestheticedges.aedgstab","Aesthetic Edges");
     }
 }

@@ -77,7 +77,7 @@ public class ModLanguageProviderEnUs extends FabricLanguageProvider
                     translationBuilder.add("item." + AestheticEdges.MOD_ID + "." + path, displayName);
                 });
 
-        translationBuilder.add("itemgroup.aedgstab","Aesthetic Edges");
+        translationBuilder.add("itemGroup.aestheticedges.aedgstab","Aesthetic Edges");
     }
 
     public static String movePrefix(String input, String[] arr)
