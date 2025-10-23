@@ -21,7 +21,7 @@ public class ModItems
         }
     }};
 
-    public static final Item CURTAIN_REMOVER = registerItem("curtain_remover", new ToolItem(ToolMaterials.STONE, new Item.Settings().maxCount(1)));
+    public static final Item CURTAIN_REMOVER = registerItem("curtain_remover", new ToolItem(ToolMaterials.STONE, new Item.Settings().group(ModItemGroups.AEDGS_TAB).maxCount(1)));
 
     private static Item registerItem(String name, Item item)
     {
