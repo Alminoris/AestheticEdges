@@ -17,7 +17,7 @@ public class ModItems
     {{
         for(String name : BlockSetsHelper.COLORS)
         {
-            put(name, registerItem("curtain_"+name, new Item(new Item.Settings().maxCount(16))));
+            put(name, registerItem("curtain_"+name, new Item(new Item.Settings().group(ModItemGroups.AEDGS_TAB).maxCount(16))));
         }
     }};
 
