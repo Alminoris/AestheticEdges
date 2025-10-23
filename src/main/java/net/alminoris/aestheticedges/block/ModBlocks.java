@@ -1,6 +1,7 @@
 package net.alminoris.aestheticedges.block;
 
 import net.alminoris.aestheticedges.AestheticEdges;
+import net.alminoris.aestheticedges.block.custom.CurtainRodBlock;
 import net.alminoris.aestheticedges.block.custom.YAxisRotatedBlock;
 import net.alminoris.aestheticedges.util.helper.BlockSetsHelper;
 import net.alminoris.aestheticedges.util.helper.BlockShape;
@@ -123,6 +124,21 @@ public class ModBlocks
         {
             put(name, registerBlock("baseboard_outer_"+name, new YAxisRotatedBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS),
                     new BlockShape(13, 0, 0, 16, 3, 3))));
+        }
+    }};
+
+    public static final Dictionary<String, Block> CURTAIN_RODS = new Hashtable<>()
+    {{
+        for(String name : BlockSetsHelper.getWoods())
+        {
+            put(name, registerBlock("curtain_rod_"+name, new CurtainRodBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD),
+                    new BlockShape(0, 14, 0, 16, 17, 3))));
+        }
+
+        for(String name : BlockSetsHelper.getStones())
+        {
+            put(name, registerBlock("curtain_rod_"+name, new CurtainRodBlock(AbstractBlock.Settings.copy(Blocks.STONE),
+                    new BlockShape(0, 14, 0, 16, 17, 3))));
         }
     }};
 
