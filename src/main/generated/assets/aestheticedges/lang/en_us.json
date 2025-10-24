@@ -888,5 +888,5 @@
   "item.aestheticedges.simple_curb_stone": "Simple Curb Stone",
   "item.aestheticedges.simple_curb_stone_bricks": "Simple Curb Stone Bricks",
   "item.aestheticedges.simple_curb_tuff": "Simple Curb Tuff",
-  "itemgroup.aedgstab": "Aesthetic Edges"
+  "itemGroup.aestheticedges.aedgstab": "Aesthetic Edges"
 }

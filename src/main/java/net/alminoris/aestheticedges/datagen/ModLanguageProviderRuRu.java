@@ -181,6 +181,6 @@ public class ModLanguageProviderRuRu extends FabricLanguageProvider
 
         translationBuilder.add("item." + AestheticEdges.MOD_ID + ".curtain_remover", "Съёмник штор");
 
-        translationBuilder.add("itemgroup.aedgstab","Aesthetic Edges");
+        translationBuilder.add("itemGroup.aestheticedges.aedgstab","Aesthetic Edges");
     }
 }
